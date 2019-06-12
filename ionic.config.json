@@ -1,0 +1,8 @@
+{
+  "name": "emporium",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "io.ionic.starter"
+}
