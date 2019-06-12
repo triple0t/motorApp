@@ -1,0 +1,32 @@
+<div *ngIf="products" class="swiper-container" [swiper]="config">
+    <div class="swiper-wrapper h-100">      
+        <div *ngFor="let product of products" class="swiper-slide">
+            <mat-card class="product-item">
+                <mat-chip-list *ngIf="product.discount">
+                    <mat-chip color="warn" selected="true">{{product.discount}}% OFF</mat-chip>
+                </mat-chip-list>
+                <a [routerLink]="['/product', product.id, product.name]" class="image-link">
+                    <img [attr.data-src]="product.image" class="swiper-lazy"/>
+                    <div class="swiper-lazy-preloader"></div>
+                </a>
+                <h6 class="category text-muted">{{product.category }}</h6>                                                                     
+                <a [routerLink]="['/product', product.id, product.name]" class="title text-truncate">
+                    <h5>{{product.name}}</h5>
+                </a>
+                <div fxLayout="row" fxLayoutAlign="space-between center" class="prices">
+                    <div fxLayout="column" fxLayoutAlign="center start">
+                        <p class="old-price text-muted"><span *ngIf="product.oldPrice">${{product.oldPrice | number : '1.2-2'}}</span></p>
+                        <p class="new-price">₦{{product.price | number : '1.2-2'}}</p>
+                    </div>
+                    <app-rating [ratingsCount]="3" [ratingsValue]="4" [direction]="'column'"></app-rating>
+                </div>                            
+                <div class="divider mt-2"></div>
+                <div class="icons">
+                    <app-controls [product]="product" (onOpenProductDialog)="openProductDialog(product)"></app-controls>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+    <button mat-mini-fab class="swiper-button-prev swipe-arrow"><mat-icon>keyboard_arrow_left</mat-icon></button>
+    <button mat-mini-fab class="swiper-button-next swipe-arrow"><mat-icon>keyboard_arrow_right</mat-icon></button> 
+</div>

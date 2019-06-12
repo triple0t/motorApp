@@ -1,0 +1,220 @@
+<ais-instantsearch [config]="configOption">
+    <ais-configure [searchParameters]="searchParameters"></ais-configure>
+    <mat-sidenav-container class="mat-elevation-z0">
+        <mat-sidenav #sidenav [opened]="sidenavOpen" [mode]="sidenavOpen ? 'side' : 'over'" class="filter-sidenav" perfectScrollbar>
+            <mat-accordion displayMode="flat" multi="true">
+                <mat-expansion-panel class="mat-elevation-z0">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <h4>Selected Filters</h4>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="categories-wrapper categories-dropdown" perfectScrollbar>
+                        <ais-current-refinements></ais-current-refinements>
+                    </div>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel expanded class="mat-elevation-z0">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <h4>Price</h4>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <!-- <ais-range-slider attribute="price.NGN.default" [pips]="true"></ais-range-slider> -->
+
+
+                    <!-- <ais-range-input 
+                        attribute="price.NGN.default"
+                        submitLabel="Filter"
+                        currency="₦"
+                    >
+                    </ais-range-input> -->
+                    <app-range-input></app-range-input>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel expanded class="mat-elevation-z0">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <h4>Location</h4>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div fxLayout="column">
+                        <!-- <ais-refinement-list attribute="location"></ais-refinement-list> -->
+                        <app-refinement-list [attributes]="'location'"></app-refinement-list>
+                    </div>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel expanded class="mat-elevation-z0">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <h4>Brands</h4>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div fxLayout="row wrap" fxLayoutAlign="space-between center" class="filter-brands">
+                        <!-- <button mat-raised-button *ngFor="let brand of brands">
+                            <img [src]="brand.image"/>
+                        </button> -->
+                        <!-- <ais-refinement-list attribute="brand"></ais-refinement-list> -->
+                        <app-refinement-list [attributes]="'brand'"></app-refinement-list>
+                    </div>
+                </mat-expansion-panel>
+
+            </mat-accordion>
+        </mat-sidenav>
+
+        <mat-sidenav-content class="all-products" ngClass.gt-sm="p-left">
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between center" class="filter-row mat-elevation-z1 text-muted">
+                <button *ngIf="!sidenavOpen" mat-icon-button (click)="sidenav.toggle()">
+                    <mat-icon>more_vert</mat-icon>
+                </button>
+                <div>
+                    <a mat-button [matMenuTriggerFor]="sortMenu" #sortMenuTrigger="matMenuTrigger">
+                        {{sort}}<mat-icon class="mat-icon-sm caret">arrow_drop_down</mat-icon>
+                    </a>
+                    <mat-menu #sortMenu="matMenu" xPosition="before" class="app-dropdown" overlapTrigger="true">
+                        <span (mouseleave)="sortMenuTrigger.closeMenu()">
+                            <button mat-menu-item *ngFor="let sort of sortings" (click)="changeSorting(sort)">
+                                <span>{{sort}}</span>
+                        </button>
+                        </span>
+                    </mat-menu>
+                </div>
+                <div>
+                    <a mat-button [matMenuTriggerFor]="countsMenu" #countsMenuTrigger="matMenuTrigger">
+                        Show {{count}}<mat-icon class="mat-icon-sm caret">arrow_drop_down</mat-icon>
+                    </a>
+                    <mat-menu #countsMenu="matMenu" xPosition="before" class="app-dropdown" overlapTrigger="true">
+                        <span (mouseleave)="countsMenuTrigger.closeMenu()">
+                            <button mat-menu-item *ngFor="let count of counts" (click)="changeCount(count)">
+                                <span>{{count}}</span>
+                        </button>
+                        </span>
+                    </mat-menu>
+                    <button mat-icon-button (click)="changeViewType('list', 100)">
+                        <mat-icon>view_list</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="changeViewType('grid', 33.3)">
+                        <mat-icon>view_module</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="changeViewType('grid', 25)">
+                        <mat-icon>view_comfy</mat-icon>
+                    </button>
+                </div>
+            </div>
+            <!-- grd prod -->
+            <ais-hits>
+                <ng-template let-hits="hits" let-results="results" let-refine="showMore">
+                    <div *ngIf="hits.length == 0" fxLayout="row wrap" class="products-wrapper">
+                        <!-- <div class="swiper-lazy-preloader"></div> -->
+                        <div style="width: 402px;height: 42px;position: absolute;left: 35%;top: 50%;margin-left: -21px;margin-top: -21px;z-index: 10;">
+                            <h4>No Product Available For Your Selected Car</h4>
+                        </div>
+                    </div>
+                    <div *ngIf="viewType == 'grid'" fxLayout="row wrap" class="products-wrapper">
+                        <div *ngFor="let hit of hits" fxFlex="100" [fxFlex.gt-sm]="viewCol" fxFlex.sm="50" class="col">
+                            <div id="make-3D-space">
+                                <div (mouseenter)="mouseEnter($event)" (mouseleave)="mouseLeave($event)" id="product-card">
+                                    <mat-chip-list *ngIf="hit.in_stock">
+                                        <mat-chip color="warn" selected="true">{{hit.in_stock}}</mat-chip>
+                                    </mat-chip-list>
+                                    <div id="product-front">
+                                        <a [routerLink]="['/product', hit.objectID, hit.sku]" class="image-link" (deferLoad)="hit.image_url = true">
+                                            <img id="product-image" src="{{hit?.image_url || 'assets/images/others/gear.png'}}" alt="">
+                                        </a>
+
+                                        <div (click)="toDetails(hit.objectID, hit.sku)" id="view_details">View details
+                                        </div>
+                                        <div class="stats">
+                                            <div class="stats-container">
+                                                <div *ngIf="hit.oldPrice" fxLayout="row" fxLayoutAlign="space-between">
+                                                    <span *ngIf="hit.oldPrice" class="old_price text-muted">{{hit.price.NGN.default_formated}}</span>
+                                                    <span class="product_price">{{hit.price.NGN.default_formated}}</span>
+                                                </div>
+
+                                                <div *ngIf="!hit.oldPrice" fxLayout="row" fxLayoutAlign="end">
+                                                    <span class="product_price">{{hit.price.NGN.default_formated}}</span>
+                                                </div>
+                                                <span (click)="toDetails(hit.objectID, hit.sku)" class="product_name">
+                                                    {{hit.name}}
+                                                </span>
+
+                                                <p class="category text-muted">SKU : {{hit.sku}}</p>
+                                                <div *ngIf="hit.location">
+                                                    <div *ngIf="hit.location === 'Express'"><span class="location">{{hit.location}}</span>
+                                                        <mat-icon>motorcycle</mat-icon>
+                                                    </div>
+                                                    <div *ngIf="hit.location === 'Express Delivery'"><span class="location">{{hit.location}}</span>
+                                                        <mat-icon>motorcycle</mat-icon>
+                                                    </div>
+                                                    <div *ngIf="hit.location === 'Global'"><span class="location">{{hit.location}}</span>
+                                                        <mat-icon>flight</mat-icon>
+                                                    </div>
+                                                </div>
+
+                                                <div class="product-options">
+                                                    <div fxLayout="row" fxLayoutAlign="space-between center" class="prices">
+                                                        <app-rating [ratingsCount]="4" [ratingsValue]="200" [direction]="'column'"></app-rating>
+                                                        <div class="icons">
+                                                            <app-controls [product]="hit" [config]="'icon'" (onOpenProductDialog)="openProductDialog(hit)">
+                                                            </app-controls>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div *ngIf="viewType == 'list'" fxLayout="row wrap" class="products-wrapper">
+                        <div *ngFor="let hit of hits " fxFlex="100" class="col">
+                            <mat-card class="product-item">
+                                <div fxLayout="row wrap">
+                                    <div fxFlex="100" fxFlex.gt-xs="40" class="p-2">
+                                        <mat-chip-list *ngIf="hit.discount" class="list-view">
+                                            <mat-chip color="warn" selected="true">{{hit.discount}}% OFF</mat-chip>
+                                        </mat-chip-list>
+                                        <a [routerLink]="['/product', hit.sku, hit.name]" class="image-link">
+                                            <img src="{{hit?.image_url || 'assets/images/others/gear.png'}}" alt="">
+                                        </a>
+                                    </div>
+                                    <div fxFlex="100" fxFlex.gt-xs="60" class="p-2">
+                                        <h4 class="category text-muted">{{hit.sku}}</h4>
+                                        <a [routerLink]="['/product', hit.objectID, hit.sku]" class="title">
+                                            {{hit.name}}
+                                        </a>
+                                        <p class="py-1 text-muted lh">{{hit.description}}</p>
+                                        <div fxLayout="row" fxLayoutAlign="space-between center" class="prices">
+                                            <div fxLayout="column" fxLayoutAlign="center start">
+                                                <p class="new-price">{{hit.price.NGN.default_formated}}</p>
+                                            </div>
+                                            <app-rating [ratingsCount]="4" [ratingsValue]="200" [direction]="'column'">
+                                            </app-rating>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="icons">
+                                            <app-controls [product]="hit" (onOpenProductDialog)="openProductDialog(hit)"></app-controls>
+                                        </div>
+                                    </div>
+                                </div>
+                            </mat-card>
+                        </div>
+                    </div>
+
+                    <div *ngIf="hits.length > 0" fxLayout="row wrap">
+                        <div fxFlex="100">
+                            <mat-card class="p-0 text-center">
+                                <ais-pagination></ais-pagination>
+                            </mat-card>
+                        </div>
+                    </div>
+                </ng-template>
+            </ais-hits>
+        </mat-sidenav-content>
+
+    </mat-sidenav-container>
+</ais-instantsearch>
+
+<br />

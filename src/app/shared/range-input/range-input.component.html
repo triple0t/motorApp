@@ -1,0 +1,13 @@
+<div *ngIf="state.range" fxLayout="row" fxLayoutAlign="start">
+  <mat-form-field fxFlex="35">
+    <input matInput type="number" placeholder="MIN" #min [value]="state.start[0]" min="state.range.min"
+      max="state.range.max">
+      <span matPrefix>&#x20A6;&nbsp;</span>
+  </mat-form-field>
+  <mat-form-field fxFlex="35">
+    <input matInput type="number" #max [value]="state.start[1]" min="state.range.min" max="state.range.max"
+      placeholder="MAX" />
+      <span matPrefix>&#x20A6;&nbsp;</span>
+  </mat-form-field>
+  <button mat-stroked-button color="primary" id="submit" fxFlex="20" (click)="state.refine([min.value, max.value])">GO!</button>
+</div>

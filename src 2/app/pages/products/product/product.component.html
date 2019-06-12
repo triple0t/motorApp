@@ -1,0 +1,340 @@
+<div *ngIf="productL">
+    <div fxLayout="row wrap">
+        <div fxFlex="100" fxFlex.gt-md="35" fxFlex.md="45">
+            <mat-card class="product-image" style="height: 350px;">
+                <img *ngIf="product.image" [src]="product.image" style="height:300px;" />
+                <img *ngIf="!product.image" src="assets/images/placeholder.jpg" style="height:300px" />
+                <div *ngIf="!product.image" class="swiper-lazy-preloader"></div>
+            </mat-card>
+        </div>
+        <div fxFlex="100" fxFlex.gt-md="45" fxFlex.md="55" ngClass.gt-sm="px-3 m-0" ngClass.sm="mt-2 px-1"
+            ngClass.xs="mt-2 px-1">
+            <h3>{{product?.name}}</h3>
+            <div class="py-1 lh">
+                <p><strong><span class="text-muted">Category: </span></strong><span
+                        class="text-muted">{{ product?.category }}</span></p>
+                <!-- <p><strong><span class="text-muted">Availability: </span></strong><span></span></p> -->
+                <div *ngIf="product?.location">
+                    <div *ngIf="product?.location === 'Express'"><span class="location">{{product?.location}}</span>
+                        <mat-icon>motorcycle</mat-icon>
+                    </div>
+                    <div *ngIf="product?.location === 'Express Delivery'"><span
+                            class="location">{{product?.location}}</span>
+                        <mat-icon>motorcycle</mat-icon>
+                    </div>
+                    <div *ngIf="product?.location === 'Global'"><span class="location">{{product?.location}}</span>
+                        <mat-icon>flight</mat-icon>
+                    </div>
+                </div>
+            </div>
+            <p class="py-1 text-muted lh" *ngIf="product.short_description !== null"
+                [innerHTML]="product.short_description">
+            </p>
+            <div class="py-1">
+                <app-rating [ratingsCount]="4" [ratingsValue]="320" [direction]="'row'"></app-rating>
+            </div>
+
+
+            <!-- <div class="divider mt-1"></div> -->
+            <div fxLayout="row" fxLayoutAlign="space-between">
+                <span *ngIf="product?.old_price" class="old_price text-muted">₦{{product?.price |number}}</span>
+                <h2 class="py-1 new-price">₦{{product?.price |number}}</h2>
+            </div>
+
+
+            <!-- <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between center" class="details text-muted py-1">
+                <div *ngIf="product?.color" class="color">
+                    <span class="fw-500">Select Color:</span>
+                    <button mat-raised-button *ngFor="let color of product?.color" [style.background]="color">&nbsp;</button>              
+                </div>
+                <div *ngIf="product?.size" class="size" ngClass.xs="mt-1">
+                    <span class="fw-500">Select Size:</span>
+                    <button mat-raised-button *ngFor="let size of product?.size">{{size}}</button>
+                </div>
+            </div> -->
+
+            <div fxLayout="row" fxLayoutAlign="space-between center" class="text-muted py-1">
+                <app-controls [product]="product" [type]="'all'"></app-controls>
+                <button mat-icon-button>
+                    <mat-icon>share</mat-icon>
+                </button>
+            </div>
+
+            <!-- <div class="divider"></div> -->
+
+            <!-- <div fxLayout="row" fxLayoutAlign="space-between center" class="text-muted py-1">
+                <button mat-button><mat-icon>mail_outline</mat-icon> Email to a Friend</button>
+                <button mat-icon-button><mat-icon>share</mat-icon></button>
+            </div> -->
+
+        </div>
+        <div fxFlex="100" fxFlex.gt-md="20" fxHide fxShow.gt-md>
+
+            <div fxLayout="row wrap" class="info-bar" ngClass.gt-md="m-0">
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">credit_card</mat-icon>
+                        <div class="content">
+                            <p>PAYMENT</p>
+                            <span class="text-muted m-0">Secure & Reliable Payment</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">local_shipping</mat-icon>
+                        <div class="content">
+                            <p>FREE SHIPPING</p>
+                            <span class="text-muted m-0">Free shipping on all orders over ₦5,000</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">monetization_on</mat-icon>
+                        <div class="content">
+                            <p>SOLD BY</p>
+                            <span class="text-muted m-0">Motormata</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">chat</mat-icon>
+                        <div class="content">
+                            <p>WHATSAPP</p>
+                            <span class="text-muted m-0">(+100) 123 456 7890</span>
+                        </div>
+                    </mat-card>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div fxLayout="row wrap" class="mt-2">
+        <div fxFlex="100" fxFlex.gt-md="78" fxFlex.md="74" ngClass.gt-md="mUp">
+            <mat-card ngClass.gt-sm="px-2 m-0" ngClass.sm="px-2 m-0" class="description">
+                <mat-tab-group [@.disabled]="true" [selectedIndex]="0">
+                    <mat-tab label="Description">
+                        <div class="full-desc lh" *ngIf="product.description != null" [innerHTML]=product.description>
+                        </div>
+                        <div class="full-desc lh" *ngIf="product.description == null">
+                            <br /> No description yet
+                            <br />
+                        </div>
+                    </mat-tab>
+                    <mat-tab label="Vehicle Fits">
+                        <div class="full-desc lh">
+                            <p>
+                                No Vehicle Fits Available yet
+                            </p>
+
+                        </div>
+                    </mat-tab>
+                    <mat-tab label="Reviews">
+                        <div class="full-desc lh">
+                            <p>No Reviews Available Yet</p>
+                            <!--  <mat-list class="reviews">
+                                <mat-list-item class="h-100 py-1">
+                                    <img matListAvatar [src]="'assets/images/avatars/avatar-1.png'" alt="image"
+                                        class="review-author">
+                                    <p matLine fxLayoutAlign="start center">
+                                        <span class="fw-500">Bruno Vespa</span>
+                                        <mat-icon class="text-muted px-1" matTooltip="Dissatisfied" matTooltipPosition="after">sentiment_dissatisfied</mat-icon>
+                                    </p>
+                                    <p matLine class="text-muted"><small>13 January, 2018 at 7:09</small></p>
+                                    <p matLine class="text">Integer id eros et mi fringilla imperdiet. In dictum turpis eget magna viverra condimentum. Ut malesuada interdum ultrices. Proin tristique sem pellentesque, posuere dui in, maximus magna. Aenean vehicula, tortor gravida
+                                        elementum tincidunt, justo lorem vestibulum ex, eget egestas arcu tellus in magna.
+                                    </p>
+                                </mat-list-item>
+                                <mat-list-item class="h-100 py-1">
+                                    <img matListAvatar [src]="'assets/images/avatars/avatar-2.png'" alt="image"
+                                        class="review-author">
+                                    <p matLine fxLayoutAlign="start center">
+                                        <span class="fw-500">Julia Aniston</span>
+                                        <mat-icon class="text-muted px-1" matTooltip="Very Satisfied" matTooltipPosition="after">sentiment_very_satisfied</mat-icon>
+                                    </p>
+                                    <p matLine class="text-muted"><small>04 February, 2018 at 10:22</small></p>
+                                    <p matLine class="text">Nulla accumsan, lacus sed suscipit rutrum, turpis augue accumsan metus, in accumsan urna mi vehicula lorem. Pellentesque semper nibh vitae augue placerat finibus. Nulla sed porttitor nunc, quis tristique sem. Quisque
+                                        in varius nisl. Integer turpis lorem, ultricies sed sem nec, commodo molestie arcu. Nulla finibus ex tortor, et suscipit magna semper consectetur. Cras sit amet metus dui. Maecenas eget dui at ex varius malesuada
+                                        vel non felis.
+                                    </p>
+                                </mat-list-item>
+                                <mat-list-item class="h-100 py-1">
+                                    <img matListAvatar [src]="'assets/images/avatars/avatar-3.png'" alt="image"
+                                        class="review-author">
+                                    <p matLine fxLayoutAlign="start center">
+                                        <span class="fw-500">Andy Warhol</span>
+                                        <mat-icon class="text-muted px-1" matTooltip="Neutral" matTooltipPosition="after">sentiment_neutral</mat-icon>
+                                    </p>
+                                    <p matLine class="text-muted"><small>14 February, 2018 at 11:10</small></p>
+                                    <p matLine class="text">Pellentesque hendrerit vel turpis aliquam placerat. Suspendisse ullamcorper congue feugiat. Etiam gravida metus ac massa posuere venenatis. Pellentesque vehicula lobortis dolor, ac pretium dolor maximus quis. Fusce
+                                        vitae iaculis mauris, quis posuere ex. Mauris vitae convallis nibh. Etiam eget enim at orci interdum maximus nec in ante.</p>
+                                </mat-list-item>
+                            </mat-list>
+
+                            <h3 class="mt-2">LEAVE YOUR REVIEW</h3>
+                            <div class="divider"></div>
+                            <p class="mt-2 text-muted">Your email address will not be published. Required fields are
+                                marked *</p>
+                            <h3 fxLayoutAlign="start center" class="mt-2">
+                                <span>Your Rating:</span>
+                                <button mat-icon-button matTooltip="Very Dissatisfied" matTooltipPosition="above">
+                                    <mat-icon class="mat-icon-lg">sentiment_very_dissatisfied</mat-icon>
+                                </button>
+                                <button mat-icon-button matTooltip="Dissatisfied" matTooltipPosition="above">
+                                    <mat-icon class="mat-icon-lg">sentiment_dissatisfied</mat-icon>
+                                </button>
+                                <button mat-icon-button matTooltip="Neutral" matTooltipPosition="above">
+                                    <mat-icon class="mat-icon-lg">sentiment_neutral</mat-icon>
+                                </button>
+                                <button mat-icon-button matTooltip="Satisfied" matTooltipPosition="above">
+                                    <mat-icon class="mat-icon-lg">sentiment_satisfied</mat-icon>
+                                </button>
+                                <button mat-icon-button matTooltip="Very Satisfied" matTooltipPosition="above">
+                                    <mat-icon class="mat-icon-lg">sentiment_very_satisfied</mat-icon>
+                                </button>
+                            </h3>
+
+                            <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" fxLayout="row wrap">
+                                <div fxFlex="100" class="px-1 mt-1">
+                                    <mat-form-field class="w-100">
+                                        <textarea matInput placeholder="Your review" formControlName="review" required></textarea>
+                                        <mat-error *ngIf="form.controls.review.errors?.required">Review is required
+                                        </mat-error>
+                                    </mat-form-field>
+                                </div>
+                                <div fxFlex="100" fxFlex.gt-sm="50" class="px-1 mt-2">
+                                    <mat-form-field class="w-100">
+                                        <input matInput placeholder="Your name" formControlName="name" required>
+                                        <mat-error *ngIf="form.controls.name.errors?.required">Name is required
+                                        </mat-error>
+                                        <mat-error *ngIf="form.controls.name.hasError('minlength')">Name isn't long enough, minimum of 4 characters</mat-error>
+                                    </mat-form-field>
+                                </div>
+                                <div fxFlex="100" fxFlex.gt-sm="50" class="px-1 mt-2">
+                                    <mat-form-field class="w-100">
+                                        <input matInput placeholder="Your email" formControlName="email" required>
+                                        <mat-error *ngIf="form.controls.email.errors?.required">Email is required
+                                        </mat-error>
+                                        <mat-error *ngIf="form.controls.email.hasError('invalidEmail')">Invalid email address
+                                        </mat-error>
+                                    </mat-form-field>
+                                </div>
+                                <div fxFlex="100" class="mt-2 text-center w-100">
+                                    <button mat-raised-button color="primary" type="submit">SUBMIT REVIEW</button>
+                                </div>
+                            </form>-->
+                        </div>
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-card>
+        </div>
+        <div fxFlex="100" fxFlex.gt-md="22" fxFlex.md="26" ngClass.gt-sm="pl-3" fxHide fxShow.gt-sm>
+            <!-- <img src="https://via.placeholder.com/400x310/EEEEEE/9E9E9E/?text=Banner%201" alt="" class="mw-100 d-block">
+            <img src="https://via.placeholder.com/400x310/EEEEEE/9E9E9E/?text=Banner%202" alt="" class="mw-100 d-block mt-3"> -->
+        </div>
+    </div>
+
+    <div class="py-2 mt-2">
+        <h2>Related Products</h2>
+        <div class="divider"></div>
+        <app-products-carousel *ngIf="relatedProducts != null" [products]="relatedProducts"></app-products-carousel>
+        <div *ngIf="relatedProducts == null">
+            No Related Products Available
+        </div>
+    </div>
+</div>
+<div *ngIf="!productL">
+    <div fxLayout="row wrap">
+        <div fxFlex="100" fxFlex.gt-md="35" fxFlex.md="45">
+            <mat-card class="product-image" style="height: 250px; padding: 30px;">
+                <img *ngIf="!image" src="assets/images/placeholder.jpg" style="height:200px" />
+                <div class="swiper-lazy-preloader"></div>
+            </mat-card>
+        </div>
+        <div fxFlex="100" fxFlex.gt-md="45" fxFlex.md="55" ngClass.gt-sm="px-3 m-0" ngClass.sm="mt-2" ngClass.xs="mt-2">
+            <h2>Loading</h2>
+            <div class="py-1 lh">
+                <p><span class="text-muted fw-500">Category: </span><span></span></p>
+                <p><span class="text-muted fw-500">Availibility: </span><span></span></p>
+            </div>
+            <div class="py-1">
+                <app-rating [ratingsCount]="" [ratingsValue]="" [direction]="'row'"></app-rating>
+            </div>
+            <p class="py-1 text-muted lh" [innerHTML]="prodSDesc"></p>
+
+            <div class="divider mt-1"></div>
+            <h2 class="py-2 new-price"></h2>
+
+
+            <div class="py-1">
+                <app-controls [product]="product" [type]="'all'"></app-controls>
+            </div>
+
+            <div class="divider"></div>
+
+            <div fxLayout="row" fxLayoutAlign="space-between center" class="text-muted py-1">
+                <button mat-button>
+                    <mat-icon>mail_outline</mat-icon> Email to a Friend
+                </button>
+                <button mat-icon-button>
+                    <mat-icon>share</mat-icon>
+                </button>
+            </div>
+
+        </div>
+        <div fxFlex="100" fxFlex.gt-md="20" fxHide fxShow.gt-md>
+
+            <div fxLayout="row wrap" class="info-bar" ngClass.gt-md="m-0">
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">card_giftcard</mat-icon>
+                        <div class="content">
+                            <p>BONUS PLUS</p>
+                            <span class="text-muted m-0">Make fun of shopping and collect bonuses</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">local_shipping</mat-icon>
+                        <div class="content">
+                            <p>FREE SHIPPING</p>
+                            <span class="text-muted m-0">Free shipping on all orders over $99</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">monetization_on</mat-icon>
+                        <div class="content">
+                            <p>MONEY BACK GUARANTEE</p>
+                            <span class="text-muted m-0">30 Days money return guarantee</span>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.md="25" fxFlex.sm="50" class="mt-16">
+                    <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+                        <mat-icon class="mat-icon-xlg text-muted m-0">history</mat-icon>
+                        <div class="content">
+                            <p>ONLINE SUPPORT 24/7</p>
+                            <span class="text-muted m-0">Call us: (+100) 123 456 7890</span>
+                        </div>
+                    </mat-card>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="py-2 mt-2">
+        <h2>Related Products</h2>
+        <div class="divider"></div>
+        <app-products-carousel *ngIf="relatedProducts != null" [products]="relatedProducts"></app-products-carousel>
+        <div *ngIf="relatedProducts == null">
+            No Related Products Available
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<input
+  type="text"
+  #input
+  (keyup)="this.state.refine(input.value)"
+  [value]="this.state.query"
+/>

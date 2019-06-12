@@ -1,0 +1,13 @@
+.button--search{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        padding: 0 !important;   
+    }
+}
+
+form{
+    border-radius: 1px;
+}
+
+input#mat-input-1 {
+    padding: 5px;
+}

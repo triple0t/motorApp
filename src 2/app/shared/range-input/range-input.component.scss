@@ -1,0 +1,21 @@
+mat-form-field{
+    margin: 0 5px;
+}
+
+
+#submit{
+    height: 30px;
+    margin: 10px auto;
+    // border-radius: 10%;
+    // background: green;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

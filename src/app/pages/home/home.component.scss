@@ -1,0 +1,39 @@
+.products-tabs{
+    margin-top: 30px;   
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white;
+}
+
+.featured-image{
+    width:100%
+}
+
+.cat{
+    padding: 0 8px;
+}
+
+.cat-image{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.featured-cat_split span {
+    display: block;
+    text-align: center;
+}
+
+.border {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 80px;
+    width: 1px;
+    background-color: #d2d2d2;
+}

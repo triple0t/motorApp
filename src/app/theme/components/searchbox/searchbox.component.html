@@ -1,0 +1,33 @@
+<form class="example-form" class="site-search-form js-site-search-form" [formGroup]="searchForm"
+  (ngSubmit)="onSearchFormSubmit(searchForm.value)">
+  <div class="site-search_input-wrap">
+    <input type="text" #input class="site-search_input js-site-search_input form-ctrl orly-header-search-input"
+      placeholder="Search by product, category, brand, or part #" aria-label="Number"
+      (keyup)="this.state.refine(input.value)" [value]="this.state.query" (keyup)="textAreaEmpty1(input.value)" matInput
+      formControlName="search" [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <div *ngIf="count > 0">
+        <ais-hits>
+          <ng-template let-hits="hits">
+            <mat-option *ngFor="let hit of hits">
+              <div (click)="goCategory(hit)">
+                <h4><strong style="color:#0a833a"> {{hit.name}} </strong> in {{hit.name}}
+                </h4>
+                <h6>{{hit.path}}</h6>
+              </div>
+            </mat-option>
+          </ng-template>
+        </ais-hits>
+      </div>
+    </mat-autocomplete>
+  </div>
+  <button type="submit"
+    class="site-search_btn js-site-search_btn button button--search button--flat-left orly-header-search-button"
+    ngClass.gt-xs="button--green"
+    aria-label="Search">
+    <svg class="button__icon" aria-hidden="true">
+      <title>Search</title>
+      <use xlink:href="#shape-search"></use>
+    </svg>
+  </button>
+</form>

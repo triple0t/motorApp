@@ -1,0 +1,16 @@
+.swiper-container{
+    padding: 16px 2px 2px 2px;
+    .swiper-slide{
+        text-align: center;
+    }
+}
+.swiper-button-next.swiper-button-disabled, 
+.swiper-button-prev.swiper-button-disabled{
+    pointer-events: auto;
+}
+.product-item img {
+    width: 13em !important;
+    margin-bottom: 12px !important;
+    // max-height: 5em !important;
+    height: 13em !important;
+}

@@ -1,0 +1,48 @@
+<div *ngIf="loading" class="swiper-lazy-preloader"></div>
+<div *ngIf="showLogin">
+    <h2 class="text-muted text-center">Sign In to Continue to Checkout</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onLoginFormSubmit(loginForm.value)">
+        <mat-form-field class="w-100 mt-2">
+            <input matInput placeholder="Email" value="{{data.email}}" readonly required>
+        </mat-form-field>
+        <mat-form-field class="w-100 mt-1">
+            <input type="password" matInput placeholder="Password" formControlName="password" required>
+            <mat-error *ngIf="loginForm.controls.password.errors?.required">Password is required</mat-error>
+            <mat-error *ngIf="loginForm.controls.password.hasError('minlength')">Password isn't long enough, minimum of 6 characters</mat-error>
+        </mat-form-field>
+        <div class="text-center mt-2">
+            <button mat-fab color="primary" class="mat-elevation-z6">
+              <mat-icon>exit_to_app</mat-icon>
+          </button>
+        </div>
+    </form>
+</div>
+<div *ngIf="showReg">
+    <h2 class="text-muted text-center">Don't have an account? Sign up now!</h2>
+    <form [formGroup]="registerForm" (ngSubmit)="onRegisterFormSubmit(registerForm.value)">
+        <mat-form-field class="w-100 mt-2">
+            <input matInput placeholder="Full Name" formControlName="name" required>
+            <mat-error *ngIf="registerForm.controls.name.errors?.required">Full Name is required</mat-error>
+            <mat-error *ngIf="registerForm.controls.name.hasError('minlength')">Full Name isn't long enough, minimum of 3 characters</mat-error>
+        </mat-form-field>
+        <mat-form-field class="w-100 mt-1">
+            <input matInput placeholder="Email" value="{{data.email}}" required>
+        </mat-form-field>
+        <mat-form-field class="w-100 mt-1">
+            <input matInput placeholder="Password" formControlName="password" type="password" minlength="6" required>
+            <mat-error *ngIf="registerForm.controls.password.errors?.required">Password is required</mat-error>
+            <mat-error *ngIf="registerForm.controls.password.hasError('minlength')">Password isn't long enough, minimum of 6 characters</mat-error>
+            <mat-error *ngIf="registerForm.controls.password.hasError('invalidPassword')">Password must contain atleast one uppercase Letter</mat-error>
+        </mat-form-field>
+        <mat-form-field class="w-100 mt-1">
+            <input matInput placeholder="Confirm Password" formControlName="confirmPassword" type="password" required>
+            <mat-error *ngIf="registerForm.controls.confirmPassword.errors?.required">Confirm Password is required</mat-error>
+            <mat-error *ngIf="registerForm.controls.confirmPassword.hasError('mismatchedPasswords')">Passwords do not match</mat-error>
+        </mat-form-field>
+        <div class="text-center mt-2">
+            <button mat-fab color="primary" class="mat-elevation-z6">
+              <mat-icon>person_add</mat-icon>
+          </button>
+        </div>
+    </form>
+</div>

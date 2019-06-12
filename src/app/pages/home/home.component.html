@@ -1,0 +1,163 @@
+<app-main-carousel fxHide fxShow.gt-md [slides]="slides"></app-main-carousel>
+<app-main-carousel fxHide fxShow.xs [slides]="slides_mobile"></app-main-carousel>
+<app-main-carousel fxHide fxShow.sm fxShow.md [slides]="slides_tab"></app-main-carousel>
+
+
+
+<div class="container" fxHide fxShow.xs>
+    <div class="featured-categories_mobile-title">
+        <h3>Featured Categories</h3>
+        <div class="featured-categories_mobile-cat">
+            <a routerLink="/category">Shop All</a>
+        </div>
+    </div>
+
+    <div class="featured-cat_split" fxLayout="row">
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Suspension-59">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/suspensions.jpg" alt="Suspensions" />
+                </div>
+                <span class="featured-cat_title">Suspensions</span>
+            </a>
+        </div>
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Brake%2BPad-196">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/brakepad.jpg" alt="Brake Pads" />
+                </div>
+                <span class="featured-cat_title">Brake Pads</span>
+            </a>
+        </div>
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/HeatAir%20Conditioning-55">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/heat.jpg" alt="Heat & Air Conditioning" />
+                </div>
+                <span class="featured-cat_title">Heat & Air conditioning</span>
+            </a>
+        </div>
+    </div>
+    <div class="featured-cat_split" fxLayout="row">
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Engine-52">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/engines.jpg" alt="Engines" />
+                </div>
+                <span class="featured-cat_title">Engines</span>
+            </a>
+        </div>
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Battery-64">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/batteries.jpg" alt="Batteries" />
+                </div>
+                <span class="featured-cat_title">Batteries</span>
+            </a>
+        </div>
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Cooling%20System-34">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/cooling.jpg" alt="Cooling Systems" />
+                </div>
+                <span class="featured-cat_title">Cooling Systems</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="featured-cat_split" fxLayout=row>
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Engine%20Oil-438">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/lubricant.jpg" alt="Lubricants" />
+                </div>
+                <span class="featured-cat_title">Lubricants</span>
+            </a>
+        </div>
+
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Tyre-65">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/tyre.jpg" alt="Tyres" />
+                </div>
+                <span class="featured-cat_title">Tyres</span>
+            </a>
+        </div>
+
+        <div class="cat" fxFlex="33">
+            <a routerLink="/category/Wiper%2BWasher-62">
+                <div class="featured-image">
+                    <img class="cat-image" src="assets/images/categories/wiper.jpg" alt="Wipers" />
+                </div>
+                <span class="featured-cat_title">Wipers</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div fxLayout="row wrap" class="info-bar">
+    <div fxFlex.xs="50" fxFlex.gt-sm="25" fxFlex.gt-xs="50">
+        <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+            <mat-icon class="mat-icon-xlg text-muted m-0">card_giftcard</mat-icon>
+            <div class="content">
+                <p>VOUCHERS</p>
+                <span fxHide fxShow.gt-xs class="text-muted m-0">Get 20% discount on Brake Pads</span>
+                <div class="border"></div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex="50" fxFlex.gt-sm="25" fxFlex.gt-xs="50">
+        <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+            <mat-icon class="mat-icon-xlg text-muted m-0">local_shipping</mat-icon>
+            <div class="content">
+                <p>FREE SHIPPING</p>
+                <span fxHide fxShow.gt-xs class="text-muted m-0">Free shipping on all orders over ₦5,000</span>
+                <div fxHide fxShow.gt-xs class="border"></div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex="50" fxFlex.gt-sm="25" fxFlex.gt-xs="50">
+        <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+            <mat-icon class="mat-icon-xlg text-muted m-0">motorcycle</mat-icon>
+            <div class="content">
+                <p>24/7 DELIVERY</p>
+                <span fxHide fxShow.gt-xs class="text-muted m-0">Fast Delivery Anywhere</span>
+                <div class="border"></div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex="50" fxFlex.gt-sm="25" fxFlex.gt-xs="50">
+        <mat-card class="light-block" fxLayout="row" fxLayoutAlign="start center">
+            <mat-icon class="mat-icon-xlg text-muted m-0">history</mat-icon>
+            <div class="content">
+                <p>ONLINE SUPPORT </p>
+                <span fxHide fxShow.gt-xs class="text-muted m-0">Call us: (+234)-700-123-MOTOR</span>
+            </div>
+        </mat-card>
+    </div>
+</div>
+
+<app-banners fxHide fxShow.gt-xs [banners]="banners"></app-banners>
+
+<div class="products-tabs">
+
+    <mat-tab-group mat-stretch-tabs (selectedTabChange)="onLinkClick($event)">
+
+        <mat-tab label="Featured">
+            <app-products-carousel [products]="featuredProducts"></app-products-carousel>
+        </mat-tab>
+        <mat-tab label="Battery">
+            <app-products-carousel [products]="onSaleProducts"></app-products-carousel>
+        </mat-tab>
+        <mat-tab label="Tyre">
+            <app-products-carousel [products]="topRatedProducts"></app-products-carousel>
+        </mat-tab>
+        <mat-tab label="Strut">
+            <app-products-carousel [products]="newArrivalsProducts"></app-products-carousel>
+        </mat-tab>
+    </mat-tab-group>
+
+
+</div>
+
+<!-- <app-brands-carousel [brands]="brands"></app-brands-carousel>  -->

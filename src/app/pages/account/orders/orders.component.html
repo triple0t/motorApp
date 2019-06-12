@@ -1,0 +1,25 @@
+<div class="mat-table orders-table">
+    <div class="mat-header-row">
+      <div class="mat-header-cell">Order</div>
+      <div class="mat-header-cell">Date</div>
+      <div class="mat-header-cell">Status</div>
+      <div class="mat-header-cell">Total</div>
+      <div class="mat-header-cell"></div>
+    </div>
+    <div *ngFor="let order of orders" class="mat-row">
+      <div class="mat-cell"><span class="order">{{order.increment_id}}</span></div>
+      <div class="mat-cell">{{order.created_at}}</div>
+      <div class="mat-cell">{{order.status}}</div>
+      <div class="mat-cell">₦{{order.total}} for {{order.qty}} item<span *ngIf="order.qty > 1">s</span></div>     
+      <div class="mat-cell">
+        <div class="p-1 actions">          
+          <button mat-mini-fab color="primary" matTooltip="View">
+              <mat-icon>remove_red_eye</mat-icon>
+          </button>
+          <button *ngIf="order.status" mat-mini-fab color="warn" matTooltip="View invoice" class="btn-invoice">
+              <mat-icon>receipt</mat-icon>
+          </button>
+        </div>
+      </div>      
+    </div>
+  </div>

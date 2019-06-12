@@ -1,0 +1,456 @@
+
+html {
+    box-sizing: border-box;
+}
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+}
+
+.year{
+    position: absolute; top: 349px; left: 160px;
+}
+.site-header {
+    background: #fff;
+    z-index: 1001;
+    position: relative;
+}
+.theme-container{
+    margin-top: -15px;
+}
+@media (min-width: 768px){
+.site-header {
+    margin-bottom: 0px !important;
+}
+.site-nav {
+    height: 56px;
+    background: #ececec;
+    position: relative;
+    -webkit-transition: left .4s cubic-bezier(0,.44,.29,1);
+    -moz-transition: .4s left cubic-bezier(0,.44,.29,1);
+    -o-transition: .4s left cubic-bezier(0,.44,.29,1);
+    transition: left .4s cubic-bezier(0,.44,.29,1);
+    -webkit-box-shadow: 0 2px 5px transparent;
+    -moz-box-shadow: 0 2px 5px transparent;
+    box-shadow: 0 2px 5px transparent;
+}
+}
+.site-nav {
+    background: #ebebeb;
+    border: solid #dcdcdc;
+    border-width: 1px 0;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+ header{
+    display: block;
+}
+.site-nav-spacer {
+    position: relative!important;
+    width: 100%!important;
+    z-index: 1;
+}
+.site-nav-fixed {
+    background-color: #eee;
+    width: 100% !important;
+}
+.mobile_no-selected-store {
+    height: 27px;
+    max-height: 27px;
+    padding: 5px 8px;
+    font-weight: 700;
+    font-family: Roboto Condensed,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+}
+.opened-Nav{
+    min-height: 0px;
+     display: block;   
+}
+.vehicle{
+    
+        padding: 17px 6px;
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        outline: none;
+    
+}
+.pos-fixed{
+    position: fixed; top: 0px; width: 1440px;
+}
+.year{
+    position: absolute; top: 349px; left: 160px;
+    }
+.mat-option {
+    font-family: Roboto Condensed,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+.search-box{
+    margin: 4px;
+    // width: 55%;
+}
+
+.site-nav_container.o-container{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        height: 80px; 
+      }
+}
+
+// nav.nav-shop.js-nav-shop.open.opened-Nav {
+//     // margin-top: -25px;
+//     @media screen and (max-width: 420px) and (min-width: 320px) {
+//         margin-top: 25px;
+//     }
+// }
+
+// .o-container {
+//     margin: 0 !important;
+// }
+ 
+// svg#Layer_1 {
+//     @media screen and (max-width: 420px) and (min-width: 320px) {
+//     margin-top: -35px;
+//     }
+// }
+
+.header-main__wrap {
+    display: flex;
+    flex-direction: row;
+    background: #ebebeb;
+    height: 50px
+}
+
+.header-main .header-main__wrap .header-main__left,
+.header-main .header-main__wrap .header-main__right {
+    display: flex;
+    flex-direction: row
+}
+
+.header-main .header-main__wrap .header-main__left {
+    flex: 1;
+    position: relative
+}
+
+
+
+
+.header-store-vehicle-info {
+    background: #fff
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 5px
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    overflow: hidden
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__store-btn-text,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__vehicle-btn-text,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__store-btn-text,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__vehicle-btn-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    min-width: 0;
+    width: 40%
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__store-btn-text--selected,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__vehicle-btn-text--selected,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__store-btn-text--selected,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__vehicle-btn-text--selected {
+    font-weight: 700
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__store-btn-text .header-store-vehicle-info__store-address,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__store-btn-text .header-store-vehicle-info__store-hours,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__vehicle-btn-text .header-store-vehicle-info__store-address,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__vehicle-btn-text .header-store-vehicle-info__store-hours,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__store-btn-text .header-store-vehicle-info__store-address,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__store-btn-text .header-store-vehicle-info__store-hours,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__vehicle-btn-text .header-store-vehicle-info__store-address,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__vehicle-btn-text .header-store-vehicle-info__store-hours {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn .header-store-vehicle-info__vehicle-btn-text--selected,
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__vehicle-btn .header-store-vehicle-info__vehicle-btn-text--selected {
+    display: block
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__store-btn {
+    border-right: 1px solid #d2d2d2
+}
+
+.header-store-vehicle-info .header-store-vehicle-info__wrap .header-store-vehicle-info__btn-arrow-icon {
+    width: 1em;
+    height: 1em;
+    align-self: center
+}
+
+.header-main__right {
+    display: flex;
+    flex-direction: row
+}
+
+.header-cart .header-cart__cart-icon {
+    width: 1.5em
+}
+
+.header-cart .header-cart__link {
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative
+}
+
+.header-cart .header-cart__link.has-items .header-cart__qty {
+    color: #067d35
+}
+
+.header-cart .header-cart__link .header-cart__qty,
+.header-cart .header-cart__link .header-cart__text {
+    display: none
+}
+
+.header-cart .header-cart__link .header-cart__badge {
+    position: absolute;
+    top: -8px;
+    left: 13px;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    background-color: #1b5633;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    text-align: center
+}
+
+.header-cart .header-cart__link .header-cart__badge .header-cart__badge-icon {
+    width: 9px;
+    height: 9px;
+    margin: 3px;
+    fill: currentColor
+}
+
+.header-close-search {
+    display: none
+}
+
+.site-header-icon {
+    height: 1em;
+    width: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -.25em
+}
+svg.location-icon, svg.motor {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: -10px;
+}
+
+.header-store-vehicle-info__store-btn-text{
+    height: 34px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: 15px;
+    font-family: Roboto Condensed,Helvetica Neue,Helvetica,Arial,sans-serif;
+    left: 55px;
+    right: 0;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+
+.header-selected-vehicle-info{
+    height: 34px;
+
+    font-family: Roboto Condensed,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.4em;
+
+    .vehicle-year{
+        margin: -10px 0 0 25px;
+        // margin-left: 25px;
+    }
+
+    .vehicle-car{
+        margin: -3px 0 0 25px;
+        // float: left;
+    }
+}
+
+.header-main__search {
+    flex: 1;
+    display: flex;
+    float: right;
+    margin-top: 2px;
+    padding: 0 10px;
+
+
+    @media screen and (max-width: 360px) and (min-width: 320px) {
+        width: 50%;
+        margin: 1.5% 0 0 -30%;
+        position: relative;
+        left: -10%; 
+      }
+      @media screen and (max-width: 420px) and (min-width: 361px) {
+        width: 60%;
+        margin: 1.5% 0 0 -30%;
+        position: relative; 
+        left: -3%; 
+      }
+
+}
+
+.header-main__right {
+    float: right;
+    right: -20%;
+    position: relative;
+
+    @media screen and (max-width: 420px) and (min-width: 361px) {
+        float: right;
+        right: -33.33%;
+        position: relative;
+      }
+}
+.fixed-header{
+    position:-webkit-sticky;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    -webkit-transform: translateZ(0);
+}
+#vehicle-nav{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        border-right: 1px solid #d2d2d2;
+    }
+}
+#coming-soon{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+    border: none;
+    }
+}
+a.header-main__home-link.orly-header-logo {
+    margin-left: -5%;
+}
+
+.site-nav_item_wrap.mat-badge.mat-badge-overlap.mat-badge-above.mat-badge-after.mat-badge-medium {
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 18px 5px 12px 10px;
+}
+
+.row{
+    padding: 0 0 0 10px;
+    min-width: 100% !important;
+    margin: 0 auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%
+}
+
+.menu, .cart{
+    float: left;
+    left: 3%;
+    align-self: center;
+    height: 50px;
+    border: none;
+    background: none;
+}
+.cart{
+    margin-left: -2% !important;
+    width: 10%;
+}
+
+.logo{
+    float: left;
+    min-width: 29% !important;
+    align-self: center;
+    margin-left: -3%;
+}
+
+.search{
+    float: left;
+    max-width: 46% !important;
+    margin: 1.8% 0 0 1.5%;
+    align-self: center;
+    border: 1px solid #d2d2d2;
+    background: white;
+}
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: -5px;
+    margin-right: 5px;
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-left: -10px;
+    }
+ }
+
+ #papers{
+     margin-left: 30px 
+ }
+ .right{
+     margin-left: 4%;
+ }
+ .nav-shop{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        position: fixed !important;
+    } 
+ }
+ .mobile-shop__wrap{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        height: calc(75vh - 97px)
+    }
+ }
+
+ .VS-new_vehicle.VS-new_vehicle{
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        height: calc(75vh - 97px);
+        border: 1px solid black;
+        position: fixed;
+    } 
+ }
+ .nav__featured-wrap{
+     padding-bottom: 0px !important;
+ }

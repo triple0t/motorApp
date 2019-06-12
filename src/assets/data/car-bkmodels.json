@@ -1,0 +1,1271 @@
+[{
+        "id": "model",
+        "year_id": 2019,
+        "make": "toyota",
+        "text": "Model"
+    },
+    {
+        "id": "2.2CL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "2.2CL"
+    },
+    {
+        "id": "2.3CL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "2.3CL"
+    },
+    {
+        "id": "3.0CL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "3.0CL"
+    },
+    {
+        "id": "3.2CL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "3.2CL"
+    },
+    {
+        "id": "ILX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "ILX"
+    },
+    {
+        "id": "Integra",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "Integra"
+    },
+    {
+        "id": "Legend",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "Legend"
+    },
+    {
+        "id": "MDX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "MDX"
+    },
+    {
+        "id": "NSX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "NSX"
+    },
+    {
+        "id": "RDX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "RDX"
+    },
+    {
+        "id": "3.5 RL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "3.5 RL"
+    },
+    {
+        "id": "RL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "RL"
+    },
+    {
+        "id": "RSX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "RSX"
+    },
+    {
+        "id": "SLX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "SLX"
+    }, {
+        "id": "2.5TL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "2.5TL"
+    }, {
+        "id": "3.2TL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "3.2TL"
+    }, {
+        "id": "TL",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "TL"
+    }, {
+        "id": "TSX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "TSX"
+    },
+    {
+        "id": "Vigor",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "Vigor"
+    }, {
+        "id": "ZDX",
+        "year_id": 2019,
+        "make": "Acura",
+        "text": "ZDX"
+    }, {
+        "id": "164",
+        "year_id": 2019,
+        "make": "Alfa Romeo",
+        "text": "164"
+    }, {
+        "id": "8C Competizione",
+        "year_id": 2019,
+        "make": "Alfa Romeo",
+        "text": "8C Competizione"
+    }, {
+        "id": "GTV-6",
+        "year_id": 2019,
+        "make": "Alfa Romeo",
+        "text": "GTV-6"
+    }, {
+        "id": "Milano",
+        "year_id": 2019,
+        "make": "Alfa Romeo",
+        "text": "Milano"
+    }, {
+        "id": "Spider",
+        "year_id": 2019,
+        "make": "Alfa Romeo",
+        "text": "Spider"
+    },
+    {
+        "id": "Alliance",
+        "year_id": 2019,
+        "make": "AMC",
+        "text": "Alliance"
+    }, {
+        "id": "Concord",
+        "year_id": 2019,
+        "make": "AMC",
+        "text": "Concord"
+    }, {
+        "id": "Eagle",
+        "year_id": 2019,
+        "make": "AMC",
+        "text": "Eagle"
+    }, {
+        "id": "Encore",
+        "year_id": 2019,
+        "make": "AMC",
+        "text": "Encore"
+    }, {
+        "id": "Spirit",
+        "year_id": 2019,
+        "make": "AMC",
+        "text": "Spirit"
+    }, {
+        "id": "DB7",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "DB7"
+    }, {
+        "id": "DB9",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "DB9"
+    }, {
+        "id": "DBS",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "DBS"
+    }, {
+        "id": "Lagonda",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "Lagonda"
+    }, {
+        "id": "Rapide",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "Rapide"
+    }, {
+        "id": "V12 Vantage",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "V12 Vantage"
+    }, {
+        "id": "V8 Vantage",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "V8 Vantage"
+    }, {
+        "id": "Vanquish",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "Vanquish"
+    }, {
+        "id": "Virage",
+        "year_id": 2019,
+        "make": "Aston Martin",
+        "text": "Virage"
+    }, {
+        "id": "100",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "100"
+    }, {
+        "id": "200",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "200"
+    }, {
+        "id": "4000",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "4000"
+    }, {
+        "id": "5000",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "5000"
+    }, {
+        "id": "80",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "80"
+    }, {
+        "id": "90",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "90"
+    }, {
+        "id": "A3",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A3"
+    }, {
+        "id": "A4",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A4"
+    }, {
+        "id": "A5",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A5"
+    }, {
+        "id": "A6",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A6"
+    }, {
+        "id": "A7",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A7"
+    }, {
+        "id": "A8",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "A8"
+    }, {
+        "id": "allroad",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "allroad"
+    }, {
+        "id": "Cabriolet",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Cabriolet"
+    }, {
+        "id": "Coupe",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Coupe"
+    }, {
+        "id": "Q3",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Q3"
+    }, {
+        "id": "Q5",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Q5"
+    }, {
+        "id": "Q7",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Q7"
+    }, {
+        "id": "Quattro",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "Quattro"
+    }, {
+        "id": "R8",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "R8"
+    }, {
+        "id": "RS 4",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "RS 4"
+    }, {
+        "id": "RS 5",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "RS 5"
+    }, {
+        "id": "RS 6",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "RS 6"
+    }, {
+        "id": "S4",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "S4"
+    }, {
+        "id": "S5",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "S5"
+    }, {
+        "id": "S6",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "S6"
+    }, {
+        "id": "S7",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "S7"
+    }, {
+        "id": "S8",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "S8"
+    }, {
+        "id": "TT",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "TT"
+    }, {
+        "id": "TT RS",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "TT RS"
+    }, {
+        "id": "TTS",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "TTS"
+    }, {
+        "id": "V8 Quattro",
+        "year_id": 2019,
+        "make": "Audi",
+        "text": "V8 Quattro"
+    }, {
+        "id": "Arnage",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Arnage"
+    }, {
+        "id": "Azure",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Azure"
+    }, {
+        "id": "Brooklands",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Brooklands"
+    }, {
+        "id": "Continental",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Continental"
+    }, {
+        "id": "Corniche",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Corniche"
+    }, {
+        "id": "Eight",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Eight"
+    }, {
+        "id": "Mulsanne",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Mulsanne"
+    }, {
+        "id": "Turbo R",
+        "year_id": 2019,
+        "make": "Bentley",
+        "text": "Turbo R"
+    }, {
+        "id": "128i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "128i"
+    }, {
+        "id": "135i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "135i"
+    }, {
+        "id": "135is",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "135is"
+    }, {
+        "id": "318i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "318i"
+    }, {
+        "id": "318iC",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "318iC"
+    }, {
+        "id": "318iS",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "318iS"
+    }, {
+        "id": "318ti",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "318ti"
+    }, {
+        "id": "320i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "320i"
+    }, {
+        "id": "323ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "323ci"
+    }, {
+        "id": "323i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "323i"
+    }, {
+        "id": "323is",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "323is"
+    }, {
+        "id": "323iT",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "323iT"
+    }, {
+        "id": "325Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325Ci"
+    }, {
+        "id": "325e",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325e"
+    }, {
+        "id": "325es",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325es"
+    }, {
+        "id": "325i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325i"
+    }, {
+        "id": "325is",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325is"
+    }, {
+        "id": "325iX",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325iX"
+    }, {
+        "id": "325xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325xi"
+    }, {
+        "id": "328Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "328Ci"
+    }, {
+        "id": "328i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "328i"
+    }, {
+        "id": "328iS",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "328iS"
+    }, {
+        "id": "328xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "328xi"
+    }, {
+        "id": "330Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "330Ci"
+    }, {
+        "id": "330i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "330i"
+    }, {
+        "id": "330xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "330xi"
+    }, {
+        "id": "335d",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "335d"
+    }, {
+        "id": "335i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "335i"
+    }, {
+        "id": "335is",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "335is"
+    }, {
+        "id": "335xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "335xi"
+    }, {
+        "id": "ActiveHybrid 3",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "ActiveHybrid 3"
+    }, {
+        "id": "325",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "325"
+    }, {
+        "id": "524td",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "524td"
+    }, {
+        "id": "525i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "525i"
+    }, {
+        "id": "525xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "525xi"
+    }, {
+        "id": "528e",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "528e"
+    }, {
+        "id": "528i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "528i"
+    }, {
+        "id": "528iT",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "528iT"
+    }, {
+        "id": "528xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "528xi"
+    }, {
+        "id": "530i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "530i"
+    }, {
+        "id": "530iT",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "530iT"
+    }, {
+        "id": "530xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "530xi"
+    }, {
+        "id": "533i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "533i"
+    }, {
+        "id": "535i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "535i"
+    }, {
+        "id": "535i Gran Turismo",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "535i Gran Turismo"
+    }, {
+        "id": "535xi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "535xi"
+    }, {
+        "id": "540i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "540i"
+    }, {
+        "id": "545i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "545i"
+    }, {
+        "id": "550i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "550i"
+    }, {
+        "id": "550i Gran Turismo",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "550i Gran Turismo"
+    }, {
+        "id": "ActiveHybrid 5",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "ActiveHybrid 5"
+    }, {
+        "id": "633CSi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "633CSi"
+    }, {
+        "id": "635CSi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "635CSi"
+    }, {
+        "id": "640i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "640i"
+    }, {
+        "id": "640i Gran Coupe",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "640i Gran Coupe"
+    }, {
+        "id": "645Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "645Ci"
+    }, {
+        "id": "650i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "650i"
+    }, {
+        "id": "650i Gran Coupe",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "650i Gran Coupe"
+    }, {
+        "id": "L6",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "L6"
+    }, {
+        "id": "733i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "733i"
+    }, {
+        "id": "735i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "735i"
+    }, {
+        "id": "735iL",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "735iL"
+    }, {
+        "id": "740i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "740i"
+    }, {
+        "id": "740iL",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "740iL"
+    }, {
+        "id": "740Li",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "740Li"
+    }, {
+        "id": "745i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "745i"
+    }, {
+        "id": "745Li",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "745Li"
+    }, {
+        "id": "750i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "750i"
+    }, {
+        "id": "750iL",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "750iL"
+    }, {
+        "id": "750Li",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "750Li"
+    }, {
+        "id": "760i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "760i"
+    }, {
+        "id": "760Li",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "760Li"
+    }, {
+        "id": "ActiveHybrid 7",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "ActiveHybrid 7"
+    }, {
+        "id": "Alpina B7",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "Alpina B7"
+    }, {
+        "id": "840Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "840Ci"
+    }, {
+        "id": "850Ci",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "850Ci"
+    }, {
+        "id": "850CSi",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "850CSi"
+    }, {
+        "id": "850i",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "850i"
+    }, {
+        "id": "L7",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "L7"
+    }, {
+        "id": "1 Series M",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "1 Series M"
+    }, {
+        "id": "M Coupe",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "M Coupe"
+    }, {
+        "id": "M Roadster",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "M Roadster"
+    }, {
+        "id": "M3",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "M3"
+    }, {
+        "id": "M5",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "M5"
+    }, {
+        "id": "M6",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "M6"
+    }, {
+        "id": "X5 M",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X5 M"
+    }, {
+        "id": "X6 M",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X6 M"
+    }, {
+        "id": "ActiveHybrid X6",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "ActiveHybrid X6"
+    }, {
+        "id": "X1",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X1"
+    }, {
+        "id": "X3",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X3"
+    }, {
+        "id": "X5",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X5"
+    }, {
+        "id": "X6",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "X6"
+    }, {
+        "id": "Z3",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "Z3"
+    }, {
+        "id": "Z4",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "Z4"
+    }, {
+        "id": "Z8",
+        "year_id": 2019,
+        "make": "BMW",
+        "text": "Z8"
+    }, {
+        "id": "Allante",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Allante"
+    }, {
+        "id": "ATS",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "ATS"
+    }, {
+        "id": "Brougham",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Brougham"
+    }, {
+        "id": "Catera",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Catera"
+    }, {
+        "id": "Cimarron",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Cimarron"
+    }, {
+        "id": "CTS",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "CTS"
+    }, {
+        "id": "De Ville",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "De Ville"
+    }, {
+        "id": "DTS",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "DTS"
+    }, {
+        "id": "Eldorado",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Eldorado"
+    }, {
+        "id": "Escalade",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Escalade"
+    }, {
+        "id": "Escalade ESV",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Escalade ESV"
+    }, {
+        "id": "Escalade EXT",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Escalade EXT"
+    }, {
+        "id": "Fleetwood",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Fleetwood"
+    }, {
+        "id": "Seville",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "Seville"
+    }, {
+        "id": "SRX",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "SRX"
+    }, {
+        "id": "STS",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "STS"
+    }, {
+        "id": "XLR",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "XLR"
+    }, {
+        "id": "XTS",
+        "year_id": 2019,
+        "make": "Cadillac",
+        "text": "XTS"
+    }, {
+        "id": "Astro",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Astro"
+    }, {
+        "id": "Avalanche",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Avalanche"
+    }, {
+        "id": "Aveo",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Aveo"
+    }, {
+        "id": "Aveo5",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Aveo5"
+    }, {
+        "id": "Beretta",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Beretta"
+    }, {
+        "id": "Blazer",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Blazer"
+    }, {
+        "id": "Camaro",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Camaro"
+    }, {
+        "id": "Caprice",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Caprice"
+    }, {
+        "id": "Captiva Sport",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Captiva Sport"
+    }, {
+        "id": "Cavalier",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Cavalier"
+    }, {
+        "id": "Celebrity",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Celebrity"
+    }, {
+        "id": "Chevette",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Chevette"
+    }, {
+        "id": "Citation",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Citation"
+    }, {
+        "id": "Cobalt",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Cobalt"
+    }, {
+        "id": "Colorado",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Colorado"
+    }, {
+        "id": "Corsica",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Corsica"
+    }, {
+        "id": "Corvette",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Corvette"
+    }, {
+        "id": "Cruze",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Cruze"
+    }, {
+        "id": "El Camino",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "El Camino"
+    }, {
+        "id": "Equinox",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Equinox"
+    }, {
+        "id": "Express Van",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Express Van"
+    }, {
+        "id": "G Van",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "G Van"
+    }, {
+        "id": "HHR",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "HHR"
+    }, {
+        "id": "Impala",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Impala"
+    }, {
+        "id": "Kodiak C4500",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Kodiak C4500"
+    }, {
+        "id": "Lumina",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Lumina"
+    }, {
+        "id": "Lumina APV",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Lumina APV"
+    }, {
+        "id": "LUV",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "LUV"
+    }, {
+        "id": "Malibu",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Malibu"
+    }, {
+        "id": "Metro",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Metro"
+    }, {
+        "id": "Monte Carlo",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Monte Carlo"
+    }, {
+        "id": "Nova",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Nova"
+    }, {
+        "id": "Prizm",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Prizm"
+    }, {
+        "id": "S10 Blazer",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "S10 Blazer"
+    }, {
+        "id": "S10 Pickup",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "S10 Pickup"
+    }, {
+        "id": "Silverado and other C/K1500",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Silverado and other C/K1500"
+    }, {
+        "id": "Silverado and other C/K2500",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Silverado and other C/K2500"
+    }, {
+        "id": "Silverado and other C/K3500",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Silverado and other C/K3500"
+    }, {
+        "id": "Sonic",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Sonic"
+    }, {
+        "id": "Spark",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Spark"
+    }, {
+        "id": "Spectrum",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Spectrum"
+    }, {
+        "id": "Sprint",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Sprint"
+    }, {
+        "id": "SSR",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "SSR"
+    }, {
+        "id": "Suburban",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Suburban"
+    }, {
+        "id": "Tahoe",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Tahoe"
+    }, {
+        "id": "Tracker",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Tracker"
+    }, {
+        "id": "TrailBlazer",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "TrailBlazer"
+    }, {
+        "id": "TrailBlazer EXT",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "TrailBlazer EXT"
+    }, {
+        "id": "Traverse",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Traverse"
+    }, {
+        "id": "Uplander",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Uplander"
+    }, {
+        "id": "Venture",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Venture"
+    }, {
+        "id": "Volt",
+        "year_id": 2019,
+        "make": "Chevrolet",
+        "text": "Volt"
+    },
+    { "id": "200", "year_id": 2019, "make": "Chrysler", "text": "200" }, { "id": "300", "year_id": 2019, "make": "Chrysler", "text": "300" }, { "id": "300M", "year_id": 2019, "make": "Chrysler", "text": "300M" }, { "id": "Aspen", "year_id": 2019, "make": "Chrysler", "text": "Aspen" }, { "id": "Caravan", "year_id": 2019, "make": "Chrysler", "text": "Caravan" }, { "id": "Cirrus", "year_id": 2019, "make": "Chrysler", "text": "Cirrus" }, { "id": "Concorde", "year_id": 2019, "make": "Chrysler", "text": "Concorde" }, { "id": "Conquest", "year_id": 2019, "make": "Chrysler", "text": "Conquest" }, { "id": "Cordoba", "year_id": 2019, "make": "Chrysler", "text": "Cordoba" }, { "id": "Crossfire", "year_id": 2019, "make": "Chrysler", "text": "Crossfire" }, { "id": "E Class", "year_id": 2019, "make": "Chrysler", "text": "E Class" }, { "id": "Fifth Avenue", "year_id": 2019, "make": "Chrysler", "text": "Fifth Avenue" }, { "id": "Grand Voyager", "year_id": 2019, "make": "Chrysler", "text": "Grand Voyager" }, { "id": "Imperial", "year_id": 2019, "make": "Chrysler", "text": "Imperial" }, { "id": "Intrepid", "year_id": 2019, "make": "Chrysler", "text": "Intrepid" }, { "id": "Laser", "year_id": 2019, "make": "Chrysler", "text": "Laser" }, { "id": "LeBaron", "year_id": 2019, "make": "Chrysler", "text": "LeBaron" }, { "id": "LHS", "year_id": 2019, "make": "Chrysler", "text": "LHS" }, { "id": "Neon", "year_id": 2019, "make": "Chrysler", "text": "Neon" }, { "id": "New Yorker", "year_id": 2019, "make": "Chrysler", "text": "New Yorker" }, { "id": "Newport", "year_id": 2019, "make": "Chrysler", "text": "Newport" }, { "id": "Pacifica", "year_id": 2019, "make": "Chrysler", "text": "Pacifica" }, { "id": "Prowler", "year_id": 2019, "make": "Chrysler", "text": "Prowler" }, { "id": "PT Cruiser", "year_id": 2019, "make": "Chrysler", "text": "PT Cruiser" }, { "id": "Sebring", "year_id": 2019, "make": "Chrysler", "text": "Sebring" }, { "id": "TC by Maserati", "year_id": 2019, "make": "Chrysler", "text": "TC by Maserati" }, { "id": "Town & Country", "year_id": 2019, "make": "Chrysler", "text": "Town & Country" }, { "id": "Voyager", "year_id": 2019, "make": "Chrysler", "text": "Voyager" },
+    { "id": "Charade", "year_id": 2019, "make": "Daihatsu", "text": "Charade" }, { "id": "Rocky", "year_id": 2019, "make": "Daihatsu", "text": "Rocky" }, { "id": "400", "year_id": 2019, "make": "Dodge", "text": "400" }, { "id": "600", "year_id": 2019, "make": "Dodge", "text": "600" }, { "id": "Aries", "year_id": 2019, "make": "Dodge", "text": "Aries" }, { "id": "Avenger", "year_id": 2019, "make": "Dodge", "text": "Avenger" }, { "id": "Caliber", "year_id": 2019, "make": "Dodge", "text": "Caliber" }, { "id": "Caravan", "year_id": 2019, "make": "Dodge", "text": "Caravan" }, { "id": "Challenger", "year_id": 2019, "make": "Dodge", "text": "Challenger" }, { "id": "Charger", "year_id": 2019, "make": "Dodge", "text": "Charger" }, { "id": "Colt", "year_id": 2019, "make": "Dodge", "text": "Colt" }, { "id": "Conquest", "year_id": 2019, "make": "Dodge", "text": "Conquest" }, { "id": "D/W Truck", "year_id": 2019, "make": "Dodge", "text": "D/W Truck" }, { "id": "Dakota", "year_id": 2019, "make": "Dodge", "text": "Dakota" }, { "id": "Dart", "year_id": 2019, "make": "Dodge", "text": "Dart" }, { "id": "Daytona", "year_id": 2019, "make": "Dodge", "text": "Daytona" }, { "id": "Diplomat", "year_id": 2019, "make": "Dodge", "text": "Diplomat" }, { "id": "Durango", "year_id": 2019, "make": "Dodge", "text": "Durango" }, { "id": "Dynasty", "year_id": 2019, "make": "Dodge", "text": "Dynasty" }, { "id": "Grand Caravan", "year_id": 2019, "make": "Dodge", "text": "Grand Caravan" }, { "id": "Intrepid", "year_id": 2019, "make": "Dodge", "text": "Intrepid" }, { "id": "Journey", "year_id": 2019, "make": "Dodge", "text": "Journey" }, { "id": "Lancer", "year_id": 2019, "make": "Dodge", "text": "Lancer" }, { "id": "Magnum", "year_id": 2019, "make": "Dodge", "text": "Magnum" }, { "id": "Mirada", "year_id": 2019, "make": "Dodge", "text": "Mirada" }, { "id": "Monaco", "year_id": 2019, "make": "Dodge", "text": "Monaco" }, { "id": "Neon", "year_id": 2019, "make": "Dodge", "text": "Neon" }, { "id": "Nitro", "year_id": 2019, "make": "Dodge", "text": "Nitro" }, { "id": "Omni", "year_id": 2019, "make": "Dodge", "text": "Omni" }, { "id": "Raider", "year_id": 2019, "make": "Dodge", "text": "Raider" }, { "id": "Ram 1500 Truck", "year_id": 2019, "make": "Dodge", "text": "Ram 1500 Truck" }, { "id": "Ram 2500 Truck", "year_id": 2019, "make": "Dodge", "text": "Ram 2500 Truck" }, { "id": "Ram 3500 Truck", "year_id": 2019, "make": "Dodge", "text": "Ram 3500 Truck" }, { "id": "Ram 4500 Truck", "year_id": 2019, "make": "Dodge", "text": "Ram 4500 Truck" }, { "id": "Ram 50 Truck", "year_id": 2019, "make": "Dodge", "text": "Ram 50 Truck" }, { "id": "RAM C/V", "year_id": 2019, "make": "Dodge", "text": "RAM C/V" }, { "id": "Ram SRT-10", "year_id": 2019, "make": "Dodge", "text": "Ram SRT-10" }, { "id": "Ram Van", "year_id": 2019, "make": "Dodge", "text": "Ram Van" }, { "id": "Ram Wagon", "year_id": 2019, "make": "Dodge", "text": "Ram Wagon" }, { "id": "Ramcharger", "year_id": 2019, "make": "Dodge", "text": "Ramcharger" }, { "id": "Rampage", "year_id": 2019, "make": "Dodge", "text": "Rampage" }, { "id": "Shadow", "year_id": 2019, "make": "Dodge", "text": "Shadow" }, { "id": "Spirit", "year_id": 2019, "make": "Dodge", "text": "Spirit" }, { "id": "Sprinter", "year_id": 2019, "make": "Dodge", "text": "Sprinter" }, { "id": "SRT-4", "year_id": 2019, "make": "Dodge", "text": "SRT-4" }, { "id": "St. Regis", "year_id": 2019, "make": "Dodge", "text": "St. Regis" }, { "id": "Stealth", "year_id": 2019, "make": "Dodge", "text": "Stealth" }, { "id": "Stratus", "year_id": 2019, "make": "Dodge", "text": "Stratus" }, { "id": "Viper", "year_id": 2019, "make": "Dodge", "text": "Viper" },
+    { "id": "308 GTB Quattrovalvole", "year_id": 2019, "make": "Ferrari", "text": "308 GTB Quattrovalvole" }, { "id": "308 GTBI", "year_id": 2019, "make": "Ferrari", "text": "308 GTBI" }, { "id": "308 GTS Quattrovalvole", "year_id": 2019, "make": "Ferrari", "text": "308 GTS Quattrovalvole" }, { "id": "308 GTSI", "year_id": 2019, "make": "Ferrari", "text": "308 GTSI" }, { "id": "328 GTB", "year_id": 2019, "make": "Ferrari", "text": "328 GTB" }, { "id": "328 GTS", "year_id": 2019, "make": "Ferrari", "text": "328 GTS" }, { "id": "348 GTB", "year_id": 2019, "make": "Ferrari", "text": "348 GTB" }, { "id": "348 GTS", "year_id": 2019, "make": "Ferrari", "text": "348 GTS" }, { "id": "348 Spider", "year_id": 2019, "make": "Ferrari", "text": "348 Spider" }, { "id": "348 TB", "year_id": 2019, "make": "Ferrari", "text": "348 TB" }, { "id": "348 TS", "year_id": 2019, "make": "Ferrari", "text": "348 TS" }, { "id": "360", "year_id": 2019, "make": "Ferrari", "text": "360" }, { "id": "456 GT", "year_id": 2019, "make": "Ferrari", "text": "456 GT" }, { "id": "456M GT", "year_id": 2019, "make": "Ferrari", "text": "456M GT" }, { "id": "458 Italia", "year_id": 2019, "make": "Ferrari", "text": "458 Italia" }, { "id": "512 BBi", "year_id": 2019, "make": "Ferrari", "text": "512 BBi" }, { "id": "512M", "year_id": 2019, "make": "Ferrari", "text": "512M" }, { "id": "512TR", "year_id": 2019, "make": "Ferrari", "text": "512TR" }, { "id": "550 Maranello", "year_id": 2019, "make": "Ferrari", "text": "550 Maranello" }, { "id": "575M Maranello", "year_id": 2019, "make": "Ferrari", "text": "575M Maranello" }, { "id": "599 GTB Fiorano", "year_id": 2019, "make": "Ferrari", "text": "599 GTB Fiorano" }, { "id": "599 GTO", "year_id": 2019, "make": "Ferrari", "text": "599 GTO" }, { "id": "612 Scaglietti", "year_id": 2019, "make": "Ferrari", "text": "612 Scaglietti" }, { "id": "California", "year_id": 2019, "make": "Ferrari", "text": "California" }, { "id": "Enzo", "year_id": 2019, "make": "Ferrari", "text": "Enzo" }, { "id": "F355", "year_id": 2019, "make": "Ferrari", "text": "F355" }, { "id": "F40", "year_id": 2019, "make": "Ferrari", "text": "F40" }, { "id": "F430", "year_id": 2019, "make": "Ferrari", "text": "F430" }, { "id": "F50", "year_id": 2019, "make": "Ferrari", "text": "F50" }, { "id": "FF", "year_id": 2019, "make": "Ferrari", "text": "FF" }, { "id": "Mondial", "year_id": 2019, "make": "Ferrari", "text": "Mondial" }, { "id": "Testarossa", "year_id": 2019, "make": "Ferrari", "text": "Testarossa" }, { "id": "2000 Spider", "year_id": 2019, "make": "Fiat", "text": "2000 Spider" }, { "id": "500", "year_id": 2019, "make": "Fiat", "text": "500" }, { "id": "Bertone X1/9", "year_id": 2019, "make": "Fiat", "text": "Bertone X1/9" }, { "id": "Brava", "year_id": 2019, "make": "Fiat", "text": "Brava" }, { "id": "Pininfarina Spider", "year_id": 2019, "make": "Fiat", "text": "Pininfarina Spider" }, { "id": "Strada", "year_id": 2019, "make": "Fiat", "text": "Strada" }, { "id": "X1/9", "year_id": 2019, "make": "Fiat", "text": "X1/9" }, { "id": "Karma", "year_id": 2019, "make": "Fisker", "text": "Karma" },
+    { "id": "Aerostar", "year_id": 2019, "make": "Ford", "text": "Aerostar" }, { "id": "Aspire", "year_id": 2019, "make": "Ford", "text": "Aspire" }, { "id": "Bronco", "year_id": 2019, "make": "Ford", "text": "Bronco" }, { "id": "Bronco II", "year_id": 2019, "make": "Ford", "text": "Bronco II" }, { "id": "C-MAX", "year_id": 2019, "make": "Ford", "text": "C-MAX" }, { "id": "Club Wagon", "year_id": 2019, "make": "Ford", "text": "Club Wagon" }, { "id": "Contour", "year_id": 2019, "make": "Ford", "text": "Contour" }, { "id": "Courier", "year_id": 2019, "make": "Ford", "text": "Courier" }, { "id": "Crown Victoria", "year_id": 2019, "make": "Ford", "text": "Crown Victoria" }, { "id": "E-150 and Econoline 150", "year_id": 2019, "make": "Ford", "text": "E-150 and Econoline 150" }, { "id": "E-250 and Econoline 250", "year_id": 2019, "make": "Ford", "text": "E-250 and Econoline 250" }, { "id": "E-350 and Econoline 350", "year_id": 2019, "make": "Ford", "text": "E-350 and Econoline 350" }, { "id": "Edge", "year_id": 2019, "make": "Ford", "text": "Edge" }, { "id": "Escape", "year_id": 2019, "make": "Ford", "text": "Escape" }, { "id": "Escort", "year_id": 2019, "make": "Ford", "text": "Escort" }, { "id": "Excursion", "year_id": 2019, "make": "Ford", "text": "Excursion" }, { "id": "EXP", "year_id": 2019, "make": "Ford", "text": "EXP" }, { "id": "Expedition", "year_id": 2019, "make": "Ford", "text": "Expedition" }, { "id": "Expedition EL", "year_id": 2019, "make": "Ford", "text": "Expedition EL" }, { "id": "Explorer", "year_id": 2019, "make": "Ford", "text": "Explorer" }, { "id": "Explorer Sport Trac", "year_id": 2019, "make": "Ford", "text": "Explorer Sport Trac" }, { "id": "F100", "year_id": 2019, "make": "Ford", "text": "F100" }, { "id": "F150", "year_id": 2019, "make": "Ford", "text": "F150" }, { "id": "F250", "year_id": 2019, "make": "Ford", "text": "F250" }, { "id": "F350", "year_id": 2019, "make": "Ford", "text": "F350" }, { "id": "F450", "year_id": 2019, "make": "Ford", "text": "F450" }, { "id": "Fairmont", "year_id": 2019, "make": "Ford", "text": "Fairmont" }, { "id": "Festiva", "year_id": 2019, "make": "Ford", "text": "Festiva" }, { "id": "Fiesta", "year_id": 2019, "make": "Ford", "text": "Fiesta" }, { "id": "Five Hundred", "year_id": 2019, "make": "Ford", "text": "Five Hundred" }, { "id": "Flex", "year_id": 2019, "make": "Ford", "text": "Flex" }, { "id": "Focus", "year_id": 2019, "make": "Ford", "text": "Focus" }, { "id": "Freestar", "year_id": 2019, "make": "Ford", "text": "Freestar" }, { "id": "Freestyle", "year_id": 2019, "make": "Ford", "text": "Freestyle" }, { "id": "Fusion", "year_id": 2019, "make": "Ford", "text": "Fusion" }, { "id": "Granada", "year_id": 2019, "make": "Ford", "text": "Granada" }, { "id": "GT", "year_id": 2019, "make": "Ford", "text": "GT" }, { "id": "LTD", "year_id": 2019, "make": "Ford", "text": "LTD" }, { "id": "Mustang", "year_id": 2019, "make": "Ford", "text": "Mustang" }, { "id": "Probe", "year_id": 2019, "make": "Ford", "text": "Probe" }, { "id": "Ranger", "year_id": 2019, "make": "Ford", "text": "Ranger" }, { "id": "Taurus", "year_id": 2019, "make": "Ford", "text": "Taurus" }, { "id": "Taurus X", "year_id": 2019, "make": "Ford", "text": "Taurus X" }, { "id": "Tempo", "year_id": 2019, "make": "Ford", "text": "Tempo" }, { "id": "Thunderbird", "year_id": 2019, "make": "Ford", "text": "Thunderbird" }, { "id": "Transit Connect", "year_id": 2019, "make": "Ford", "text": "Transit Connect" }, { "id": "Windstar", "year_id": 2019, "make": "Ford", "text": "Windstar" }, { "id": "ZX2 Escort", "year_id": 2019, "make": "Ford", "text": "ZX2 Escort" },
+    { "id": "Acadia", "year_id": 2019, "make": "GMC", "text": "Acadia" }, { "id": "Caballero", "year_id": 2019, "make": "GMC", "text": "Caballero" }, { "id": "Canyon", "year_id": 2019, "make": "GMC", "text": "Canyon" }, { "id": "Envoy", "year_id": 2019, "make": "GMC", "text": "Envoy" }, { "id": "Envoy XL", "year_id": 2019, "make": "GMC", "text": "Envoy XL" }, { "id": "Envoy XUV", "year_id": 2019, "make": "GMC", "text": "Envoy XUV" }, { "id": "Jimmy", "year_id": 2019, "make": "GMC", "text": "Jimmy" }, { "id": "Rally Wagon", "year_id": 2019, "make": "GMC", "text": "Rally Wagon" }, { "id": "S15 Jimmy", "year_id": 2019, "make": "GMC", "text": "S15 Jimmy" }, { "id": "S15 Pickup", "year_id": 2019, "make": "GMC", "text": "S15 Pickup" }, { "id": "Safari", "year_id": 2019, "make": "GMC", "text": "Safari" }, { "id": "Savana", "year_id": 2019, "make": "GMC", "text": "Savana" }, { "id": "Sierra C/K1500", "year_id": 2019, "make": "GMC", "text": "Sierra C/K1500" }, { "id": "Sierra C/K2500", "year_id": 2019, "make": "GMC", "text": "Sierra C/K2500" }, { "id": "Sierra C/K3500", "year_id": 2019, "make": "GMC", "text": "Sierra C/K3500" }, { "id": "Sonoma", "year_id": 2019, "make": "GMC", "text": "Sonoma" }, { "id": "Suburban", "year_id": 2019, "make": "GMC", "text": "Suburban" }, { "id": "Syclone", "year_id": 2019, "make": "GMC", "text": "Syclone" }, { "id": "Terrain", "year_id": 2019, "make": "GMC", "text": "Terrain" }, { "id": "TopKick C4500", "year_id": 2019, "make": "GMC", "text": "TopKick C4500" }, { "id": "Typhoon", "year_id": 2019, "make": "GMC", "text": "Typhoon" }, { "id": "Vandura", "year_id": 2019, "make": "GMC", "text": "Vandura" }, { "id": "Yukon", "year_id": 2019, "make": "GMC", "text": "Yukon" }, { "id": "Yukon XL", "year_id": 2019, "make": "GMC", "text": "Yukon XL" }, { "id": "Accord", "year_id": 2019, "make": "Honda", "text": "Accord" }, { "id": "Civic", "year_id": 2019, "make": "Honda", "text": "Civic" }, { "id": "CR-V", "year_id": 2019, "make": "Honda", "text": "CR-V" }, { "id": "CR-Z", "year_id": 2019, "make": "Honda", "text": "CR-Z" }, { "id": "CRX", "year_id": 2019, "make": "Honda", "text": "CRX" }, { "id": "Accord Crosstour", "year_id": 2019, "make": "Honda", "text": "Accord Crosstour" }, { "id": "Crosstour", "year_id": 2019, "make": "Honda", "text": "Crosstour" }, { "id": "Del Sol", "year_id": 2019, "make": "Honda", "text": "Del Sol" }, { "id": "Element", "year_id": 2019, "make": "Honda", "text": "Element" }, { "id": "Fit", "year_id": 2019, "make": "Honda", "text": "Fit" }, { "id": "Insight", "year_id": 2019, "make": "Honda", "text": "Insight" }, { "id": "Odyssey", "year_id": 2019, "make": "Honda", "text": "Odyssey" }, { "id": "Passport", "year_id": 2019, "make": "Honda", "text": "Passport" }, { "id": "Pilot", "year_id": 2019, "make": "Honda", "text": "Pilot" }, { "id": "Prelude", "year_id": 2019, "make": "Honda", "text": "Prelude" }, { "id": "Ridgeline", "year_id": 2019, "make": "Honda", "text": "Ridgeline" }, { "id": "S2000", "year_id": 2019, "make": "Honda", "text": "S2000" },
+    { "id": "H1", "year_id": 2019, "make": "HUMMER", "text": "H1" }, { "id": "H2", "year_id": 2019, "make": "HUMMER", "text": "H2" }, { "id": "H3", "year_id": 2019, "make": "HUMMER", "text": "H3" }, { "id": "H3T", "year_id": 2019, "make": "HUMMER", "text": "H3T" }, { "id": "Accent", "year_id": 2019, "make": "Hyundai", "text": "Accent" }, { "id": "Azera", "year_id": 2019, "make": "Hyundai", "text": "Azera" }, { "id": "Elantra", "year_id": 2019, "make": "Hyundai", "text": "Elantra" }, { "id": "Elantra Coupe", "year_id": 2019, "make": "Hyundai", "text": "Elantra Coupe" }, { "id": "Elantra Touring", "year_id": 2019, "make": "Hyundai", "text": "Elantra Touring" }, { "id": "Entourage", "year_id": 2019, "make": "Hyundai", "text": "Entourage" }, { "id": "Equus", "year_id": 2019, "make": "Hyundai", "text": "Equus" }, { "id": "Excel", "year_id": 2019, "make": "Hyundai", "text": "Excel" }, { "id": "Genesis", "year_id": 2019, "make": "Hyundai", "text": "Genesis" }, { "id": "Genesis Coupe", "year_id": 2019, "make": "Hyundai", "text": "Genesis Coupe" }, { "id": "Santa Fe", "year_id": 2019, "make": "Hyundai", "text": "Santa Fe" }, { "id": "Scoupe", "year_id": 2019, "make": "Hyundai", "text": "Scoupe" }, { "id": "Sonata", "year_id": 2019, "make": "Hyundai", "text": "Sonata" }, { "id": "Tiburon", "year_id": 2019, "make": "Hyundai", "text": "Tiburon" }, { "id": "Tucson", "year_id": 2019, "make": "Hyundai", "text": "Tucson" }, { "id": "Veloster", "year_id": 2019, "make": "Hyundai", "text": "Veloster" }, { "id": "Veracruz", "year_id": 2019, "make": "Hyundai", "text": "Veracruz" }, { "id": "XG300", "year_id": 2019, "make": "Hyundai", "text": "XG300" }, { "id": "XG350", "year_id": 2019, "make": "Hyundai", "text": "XG350" }, { "id": "EX35", "year_id": 2019, "make": "Infiniti", "text": "EX35" }, { "id": "EX37", "year_id": 2019, "make": "Infiniti", "text": "EX37" }, { "id": "FX35", "year_id": 2019, "make": "Infiniti", "text": "FX35" }, { "id": "FX37", "year_id": 2019, "make": "Infiniti", "text": "FX37" }, { "id": "FX45", "year_id": 2019, "make": "Infiniti", "text": "FX45" }, { "id": "FX50", "year_id": 2019, "make": "Infiniti", "text": "FX50" }, { "id": "G20", "year_id": 2019, "make": "Infiniti", "text": "G20" }, { "id": "G25", "year_id": 2019, "make": "Infiniti", "text": "G25" }, { "id": "G35", "year_id": 2019, "make": "Infiniti", "text": "G35" }, { "id": "G37", "year_id": 2019, "make": "Infiniti", "text": "G37" }, { "id": "I30", "year_id": 2019, "make": "Infiniti", "text": "I30" }, { "id": "I35", "year_id": 2019, "make": "Infiniti", "text": "I35" }, { "id": "J30", "year_id": 2019, "make": "Infiniti", "text": "J30" }, { "id": "JX35", "year_id": 2019, "make": "Infiniti", "text": "JX35" }, { "id": "M30", "year_id": 2019, "make": "Infiniti", "text": "M30" }, { "id": "M35", "year_id": 2019, "make": "Infiniti", "text": "M35" }, { "id": "M35h", "year_id": 2019, "make": "Infiniti", "text": "M35h" }, { "id": "M37", "year_id": 2019, "make": "Infiniti", "text": "M37" }, { "id": "M45", "year_id": 2019, "make": "Infiniti", "text": "M45" }, { "id": "M56", "year_id": 2019, "make": "Infiniti", "text": "M56" }, { "id": "Q45", "year_id": 2019, "make": "Infiniti", "text": "Q45" }, { "id": "QX4", "year_id": 2019, "make": "Infiniti", "text": "QX4" }, { "id": "QX56", "year_id": 2019, "make": "Infiniti", "text": "QX56" },
+    { "id": "Amigo", "year_id": 2019, "make": "Isuzu", "text": "Amigo" },
+    { "id": "Ascender", "year_id": 2019, "make": "Isuzu", "text": "Ascender" },
+    { "id": "Axiom", "year_id": 2019, "make": "Isuzu", "text": "Axiom" },
+    { "id": "Hombre", "year_id": 2019, "make": "Isuzu", "text": "Hombre" },
+    { "id": "i-280", "year_id": 2019, "make": "Isuzu", "text": "i-280" },
+    { "id": "i-290", "year_id": 2019, "make": "Isuzu", "text": "i-290" },
+    { "id": "i-350", "year_id": 2019, "make": "Isuzu", "text": "i-350" },
+    { "id": "i-370", "year_id": 2019, "make": "Isuzu", "text": "i-370" }, { "id": "I-Mark", "year_id": 2019, "make": "Isuzu", "text": "I-Mark" }, { "id": "Impulse", "year_id": 2019, "make": "Isuzu", "text": "Impulse" }, { "id": "Oasis", "year_id": 2019, "make": "Isuzu", "text": "Oasis" }, { "id": "Pickup", "year_id": 2019, "make": "Isuzu", "text": "Pickup" }, { "id": "Rodeo", "year_id": 2019, "make": "Isuzu", "text": "Rodeo" }, { "id": "Stylus", "year_id": 2019, "make": "Isuzu", "text": "Stylus" }, { "id": "Trooper", "year_id": 2019, "make": "Isuzu", "text": "Trooper" }, { "id": "Trooper II", "year_id": 2019, "make": "Isuzu", "text": "Trooper II" }, { "id": "VehiCROSS", "year_id": 2019, "make": "Isuzu", "text": "VehiCROSS" }, { "id": "S-Type", "year_id": 2019, "make": "Jaguar", "text": "S-Type" }, { "id": "X-Type", "year_id": 2019, "make": "Jaguar", "text": "X-Type" }, { "id": "XF", "year_id": 2019, "make": "Jaguar", "text": "XF" }, { "id": "XJ12", "year_id": 2019, "make": "Jaguar", "text": "XJ12" }, { "id": "XJ6", "year_id": 2019, "make": "Jaguar", "text": "XJ6" }, { "id": "XJR", "year_id": 2019, "make": "Jaguar", "text": "XJR" }, { "id": "XJR-S", "year_id": 2019, "make": "Jaguar", "text": "XJR-S" }, { "id": "XJS", "year_id": 2019, "make": "Jaguar", "text": "XJS" }, { "id": "XJ Vanden Plas", "year_id": 2019, "make": "Jaguar", "text": "XJ Vanden Plas" }, { "id": "XJ", "year_id": 2019, "make": "Jaguar", "text": "XJ" }, { "id": "XJ8", "year_id": 2019, "make": "Jaguar", "text": "XJ8" }, { "id": "XJ8 L", "year_id": 2019, "make": "Jaguar", "text": "XJ8 L" }, { "id": "XJ Sport", "year_id": 2019, "make": "Jaguar", "text": "XJ Sport" }, { "id": "XK8", "year_id": 2019, "make": "Jaguar", "text": "XK8" }, { "id": "XK", "year_id": 2019, "make": "Jaguar", "text": "XK" }, { "id": "XKR", "year_id": 2019, "make": "Jaguar", "text": "XKR" }, { "id": "Cherokee", "year_id": 2019, "make": "Jeep", "text": "Cherokee" }, { "id": "CJ", "year_id": 2019, "make": "Jeep", "text": "CJ" }, { "id": "Comanche", "year_id": 2019, "make": "Jeep", "text": "Comanche" }, { "id": "Commander", "year_id": 2019, "make": "Jeep", "text": "Commander" }, { "id": "Compass", "year_id": 2019, "make": "Jeep", "text": "Compass" }, { "id": "Grand Cherokee", "year_id": 2019, "make": "Jeep", "text": "Grand Cherokee" }, { "id": "Grand Wagoneer", "year_id": 2019, "make": "Jeep", "text": "Grand Wagoneer" }, { "id": "Liberty", "year_id": 2019, "make": "Jeep", "text": "Liberty" }, { "id": "Patriot", "year_id": 2019, "make": "Jeep", "text": "Patriot" }, { "id": "Pickup", "year_id": 2019, "make": "Jeep", "text": "Pickup" }, { "id": "Scrambler", "year_id": 2019, "make": "Jeep", "text": "Scrambler" }, { "id": "Wagoneer", "year_id": 2019, "make": "Jeep", "text": "Wagoneer" }, { "id": "Wrangler", "year_id": 2019, "make": "Jeep", "text": "Wrangler" }, { "id": "Amanti", "year_id": 2019, "make": "Kia", "text": "Amanti" }, { "id": "Borrego", "year_id": 2019, "make": "Kia", "text": "Borrego" }, { "id": "Forte", "year_id": 2019, "make": "Kia", "text": "Forte" }, { "id": "Forte Koup", "year_id": 2019, "make": "Kia", "text": "Forte Koup" }, { "id": "Optima", "year_id": 2019, "make": "Kia", "text": "Optima" }, { "id": "Rio", "year_id": 2019, "make": "Kia", "text": "Rio" }, { "id": "Rio5", "year_id": 2019, "make": "Kia", "text": "Rio5" }, { "id": "Rondo", "year_id": 2019, "make": "Kia", "text": "Rondo" }, { "id": "Sedona", "year_id": 2019, "make": "Kia", "text": "Sedona" }, { "id": "Sephia", "year_id": 2019, "make": "Kia", "text": "Sephia" }, { "id": "Sorento", "year_id": 2019, "make": "Kia", "text": "Sorento" }, { "id": "Soul", "year_id": 2019, "make": "Kia", "text": "Soul" }, { "id": "Spectra", "year_id": 2019, "make": "Kia", "text": "Spectra" }, { "id": "Spectra5", "year_id": 2019, "make": "Kia", "text": "Spectra5" }, { "id": "Sportage", "year_id": 2019, "make": "Kia", "text": "Sportage" }, { "id": "Aventador", "year_id": 2019, "make": "Lamborghini", "text": "Aventador" }, { "id": "Countach", "year_id": 2019, "make": "Lamborghini", "text": "Countach" }, { "id": "Diablo", "year_id": 2019, "make": "Lamborghini", "text": "Diablo" }, { "id": "Gallardo", "year_id": 2019, "make": "Lamborghini", "text": "Gallardo" }, { "id": "Jalpa", "year_id": 2019, "make": "Lamborghini", "text": "Jalpa" }, { "id": "LM002", "year_id": 2019, "make": "Lamborghini", "text": "LM002" }, { "id": "Murcielago", "year_id": 2019, "make": "Lamborghini", "text": "Murcielago" }, { "id": "Beta", "year_id": 2019, "make": "Lancia", "text": "Beta" }, { "id": "Zagato", "year_id": 2019, "make": "Lancia", "text": "Zagato" }, { "id": "Defender", "year_id": 2019, "make": "Land Rover", "text": "Defender" }, { "id": "Discovery", "year_id": 2019, "make": "Land Rover", "text": "Discovery" }, { "id": "Freelander", "year_id": 2019, "make": "Land Rover", "text": "Freelander" }, { "id": "LR2", "year_id": 2019, "make": "Land Rover", "text": "LR2" }, { "id": "LR3", "year_id": 2019, "make": "Land Rover", "text": "LR3" }, { "id": "LR4", "year_id": 2019, "make": "Land Rover", "text": "LR4" }, { "id": "Range Rover", "year_id": 2019, "make": "Land Rover", "text": "Range Rover" }, { "id": "Range Rover Evoque", "year_id": 2019, "make": "Land Rover", "text": "Range Rover Evoque" }, { "id": "Range Rover Sport", "year_id": 2019, "make": "Land Rover", "text": "Range Rover Sport" }, { "id": "CT 200h", "year_id": 2019, "make": "Lexus", "text": "CT 200h" }, { "id": "ES 250", "year_id": 2019, "make": "Lexus", "text": "ES 250" }, { "id": "ES 300", "year_id": 2019, "make": "Lexus", "text": "ES 300" }, { "id": "ES 300h", "year_id": 2019, "make": "Lexus", "text": "ES 300h" }, { "id": "ES 330", "year_id": 2019, "make": "Lexus", "text": "ES 330" }, { "id": "ES 350", "year_id": 2019, "make": "Lexus", "text": "ES 350" }, { "id": "GS 300", "year_id": 2019, "make": "Lexus", "text": "GS 300" }, { "id": "GS 350", "year_id": 2019, "make": "Lexus", "text": "GS 350" }, { "id": "GS 400", "year_id": 2019, "make": "Lexus", "text": "GS 400" }, { "id": "GS 430", "year_id": 2019, "make": "Lexus", "text": "GS 430" }, { "id": "GS 450h", "year_id": 2019, "make": "Lexus", "text": "GS 450h" }, { "id": "GS 460", "year_id": 2019, "make": "Lexus", "text": "GS 460" }, { "id": "GX 460", "year_id": 2019, "make": "Lexus", "text": "GX 460" }, { "id": "GX 470", "year_id": 2019, "make": "Lexus", "text": "GX 470" }, { "id": "HS 250h", "year_id": 2019, "make": "Lexus", "text": "HS 250h" }, { "id": "IS 250", "year_id": 2019, "make": "Lexus", "text": "IS 250" }, { "id": "IS 250C", "year_id": 2019, "make": "Lexus", "text": "IS 250C" }, { "id": "IS 300", "year_id": 2019, "make": "Lexus", "text": "IS 300" }, { "id": "IS 350", "year_id": 2019, "make": "Lexus", "text": "IS 350" }, { "id": "IS 350C", "year_id": 2019, "make": "Lexus", "text": "IS 350C" }, { "id": "IS F", "year_id": 2019, "make": "Lexus", "text": "IS F" }, { "id": "LFA", "year_id": 2019, "make": "Lexus", "text": "LFA" }, { "id": "LS 400", "year_id": 2019, "make": "Lexus", "text": "LS 400" }, { "id": "LS 430", "year_id": 2019, "make": "Lexus", "text": "LS 430" }, { "id": "LS 460", "year_id": 2019, "make": "Lexus", "text": "LS 460" }, { "id": "LS 600h", "year_id": 2019, "make": "Lexus", "text": "LS 600h" }, { "id": "LX 450", "year_id": 2019, "make": "Lexus", "text": "LX 450" }, { "id": "LX 470", "year_id": 2019, "make": "Lexus", "text": "LX 470" }, { "id": "LX 570", "year_id": 2019, "make": "Lexus", "text": "LX 570" }, { "id": "RX 300", "year_id": 2019, "make": "Lexus", "text": "RX 300" }, { "id": "RX 330", "year_id": 2019, "make": "Lexus", "text": "RX 330" }, { "id": "RX 350", "year_id": 2019, "make": "Lexus", "text": "RX 350" },
+    { "id": "RX 400h", "year_id": 2019, "make": "Lexus", "text": "RX 400h" }, { "id": "RX 450h", "year_id": 2019, "make": "Lexus", "text": "RX 450h" }, { "id": "SC 300", "year_id": 2019, "make": "Lexus", "text": "SC 300" }, { "id": "SC 400", "year_id": 2019, "make": "Lexus", "text": "SC 400" }, { "id": "SC 430", "year_id": 2019, "make": "Lexus", "text": "SC 430" }, { "id": "Aviator", "year_id": 2019, "make": "Lincoln", "text": "Aviator" }, { "id": "Blackwood", "year_id": 2019, "make": "Lincoln", "text": "Blackwood" }, { "id": "Continental", "year_id": 2019, "make": "Lincoln", "text": "Continental" }, { "id": "LS", "year_id": 2019, "make": "Lincoln", "text": "LS" }, { "id": "Mark LT", "year_id": 2019, "make": "Lincoln", "text": "Mark LT" }, { "id": "Mark VI", "year_id": 2019, "make": "Lincoln", "text": "Mark VI" }, { "id": "Mark VII", "year_id": 2019, "make": "Lincoln", "text": "Mark VII" }, { "id": "Mark VIII", "year_id": 2019, "make": "Lincoln", "text": "Mark VIII" }, { "id": "MKS", "year_id": 2019, "make": "Lincoln", "text": "MKS" }, { "id": "MKT", "year_id": 2019, "make": "Lincoln", "text": "MKT" }, { "id": "MKX", "year_id": 2019, "make": "Lincoln", "text": "MKX" }, { "id": "MKZ", "year_id": 2019, "make": "Lincoln", "text": "MKZ" }, { "id": "Navigator", "year_id": 2019, "make": "Lincoln", "text": "Navigator" }, { "id": "Navigator L", "year_id": 2019, "make": "Lincoln", "text": "Navigator L" }, { "id": "Town Car", "year_id": 2019, "make": "Lincoln", "text": "Town Car" }, { "id": "Zephyr", "year_id": 2019, "make": "Lincoln", "text": "Zephyr" }, { "id": "Elan", "year_id": 2019, "make": "Lotus", "text": "Elan" }, { "id": "Elise", "year_id": 2019, "make": "Lotus", "text": "Elise" }, { "id": "Esprit", "year_id": 2019, "make": "Lotus", "text": "Esprit" }, { "id": "Evora", "year_id": 2019, "make": "Lotus", "text": "Evora" }, { "id": "Exige", "year_id": 2019, "make": "Lotus", "text": "Exige" }, { "id": "430", "year_id": 2019, "make": "Maserati", "text": "430" }, { "id": "Biturbo", "year_id": 2019, "make": "Maserati", "text": "Biturbo" }, { "id": "Coupe", "year_id": 2019, "make": "Maserati", "text": "Coupe" }, { "id": "GranSport", "year_id": 2019, "make": "Maserati", "text": "GranSport" }, { "id": "GranTurismo", "year_id": 2019, "make": "Maserati", "text": "GranTurismo" }, { "id": "Quattroporte", "year_id": 2019, "make": "Maserati", "text": "Quattroporte" }, { "id": "Spyder", "year_id": 2019, "make": "Maserati", "text": "Spyder" }, { "id": "57", "year_id": 2019, "make": "Maybach", "text": "57" }, { "id": "62", "year_id": 2019, "make": "Maybach", "text": "62" }, { "id": "323", "year_id": 2019, "make": "Mazda", "text": "323" }, { "id": "626", "year_id": 2019, "make": "Mazda", "text": "626" }, { "id": "929", "year_id": 2019, "make": "Mazda", "text": "929" }, { "id": "B-Series Pickup", "year_id": 2019, "make": "Mazda", "text": "B-Series Pickup" }, { "id": "CX-5", "year_id": 2019, "make": "Mazda", "text": "CX-5" }, { "id": "CX-7", "year_id": 2019, "make": "Mazda", "text": "CX-7" }, { "id": "CX-9", "year_id": 2019, "make": "Mazda", "text": "CX-9" }, { "id": "GLC", "year_id": 2019, "make": "Mazda", "text": "GLC" }, { "id": "MAZDA2", "year_id": 2019, "make": "Mazda", "text": "MAZDA2" }, { "id": "MAZDA3", "year_id": 2019, "make": "Mazda", "text": "MAZDA3" }, { "id": "MAZDA5", "year_id": 2019, "make": "Mazda", "text": "MAZDA5" }, { "id": "MAZDA6", "year_id": 2019, "make": "Mazda", "text": "MAZDA6" }, { "id": "MAZDASPEED3", "year_id": 2019, "make": "Mazda", "text": "MAZDASPEED3" }, { "id": "MAZDASPEED6", "year_id": 2019, "make": "Mazda", "text": "MAZDASPEED6" }, { "id": "Miata MX5", "year_id": 2019, "make": "Mazda", "text": "Miata MX5" }, { "id": "Millenia", "year_id": 2019, "make": "Mazda", "text": "Millenia" }, { "id": "MPV", "year_id": 2019, "make": "Mazda", "text": "MPV" }, { "id": "MX3", "year_id": 2019, "make": "Mazda", "text": "MX3" }, { "id": "MX6", "year_id": 2019, "make": "Mazda", "text": "MX6" }, { "id": "Navajo", "year_id": 2019, "make": "Mazda", "text": "Navajo" }, { "id": "Protege", "year_id": 2019, "make": "Mazda", "text": "Protege" }, { "id": "Protege5", "year_id": 2019, "make": "Mazda", "text": "Protege5" }, { "id": "RX-7", "year_id": 2019, "make": "Mazda", "text": "RX-7" }, { "id": "RX-8", "year_id": 2019, "make": "Mazda", "text": "RX-8" }, { "id": "Tribute", "year_id": 2019, "make": "Mazda", "text": "Tribute" }, { "id": "MP4-12C", "year_id": 2019, "make": "McLaren", "text": "MP4-12C" }, { "id": "190D", "year_id": 2019, "make": "Mercedes-Benz", "text": "190D" }, { "id": "190E", "year_id": 2019, "make": "Mercedes-Benz", "text": "190E" }, { "id": "240D", "year_id": 2019, "make": "Mercedes-Benz", "text": "240D" }, { "id": "300CD", "year_id": 2019, "make": "Mercedes-Benz", "text": "300CD" }, { "id": "300CE", "year_id": 2019, "make": "Mercedes-Benz", "text": "300CE" }, { "id": "300D", "year_id": 2019, "make": "Mercedes-Benz", "text": "300D" }, { "id": "300E", "year_id": 2019, "make": "Mercedes-Benz", "text": "300E" }, { "id": "300TD", "year_id": 2019, "make": "Mercedes-Benz", "text": "300TD" }, { "id": "300TE", "year_id": 2019, "make": "Mercedes-Benz", "text": "300TE" }, { "id": "C220", "year_id": 2019, "make": "Mercedes-Benz", "text": "C220" }, { "id": "C230", "year_id": 2019, "make": "Mercedes-Benz", "text": "C230" }, { "id": "C240", "year_id": 2019, "make": "Mercedes-Benz", "text": "C240" }, { "id": "C250", "year_id": 2019, "make": "Mercedes-Benz", "text": "C250" }, { "id": "C280", "year_id": 2019, "make": "Mercedes-Benz", "text": "C280" }, { "id": "C300", "year_id": 2019, "make": "Mercedes-Benz", "text": "C300" }, { "id": "C320", "year_id": 2019, "make": "Mercedes-Benz", "text": "C320" }, { "id": "C32 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "C32 AMG" },
+    { "id": "C350", "year_id": 2019, "make": "Mercedes-Benz", "text": "C350" }, { "id": "C36 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "C36 AMG" }, { "id": "C43 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "C43 AMG" }, { "id": "C55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "C55 AMG" }, { "id": "C63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "C63 AMG" }, { "id": "CL500", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL500" }, { "id": "CL550", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL550" }, { "id": "CL55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL55 AMG" }, { "id": "CL600", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL600" }, { "id": "CL63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL63 AMG" }, { "id": "CL65 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CL65 AMG" }, { "id": "CLK320", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK320" }, { "id": "CLK350", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK350" }, { "id": "CLK430", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK430" }, { "id": "CLK500", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK500" }, { "id": "CLK550", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK550" }, { "id": "CLK55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK55 AMG" }, { "id": "CLK63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLK63 AMG" }, { "id": "CLS500", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLS500" }, { "id": "CLS550", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLS550" }, { "id": "CLS55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLS55 AMG" }, { "id": "CLS63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "CLS63 AMG" }, { "id": "260E", "year_id": 2019, "make": "Mercedes-Benz", "text": "260E" }, { "id": "280CE", "year_id": 2019, "make": "Mercedes-Benz", "text": "280CE" }, { "id": "280E", "year_id": 2019, "make": "Mercedes-Benz", "text": "280E" }, { "id": "400E", "year_id": 2019, "make": "Mercedes-Benz", "text": "400E" }, { "id": "500E", "year_id": 2019, "make": "Mercedes-Benz", "text": "500E" }, { "id": "E300", "year_id": 2019, "make": "Mercedes-Benz", "text": "E300" }, { "id": "E320", "year_id": 2019, "make": "Mercedes-Benz", "text": "E320" }, { "id": "E320 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "E320 Bluetec" }, { "id": "E320 CDI", "year_id": 2019, "make": "Mercedes-Benz", "text": "E320 CDI" }, { "id": "E350", "year_id": 2019, "make": "Mercedes-Benz", "text": "E350" }, { "id": "E350 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "E350 Bluetec" }, { "id": "E400 Hybrid", "year_id": 2019, "make": "Mercedes-Benz", "text": "E400 Hybrid" }, { "id": "E420", "year_id": 2019, "make": "Mercedes-Benz", "text": "E420" }, { "id": "E430", "year_id": 2019, "make": "Mercedes-Benz", "text": "E430" }, { "id": "E500", "year_id": 2019, "make": "Mercedes-Benz", "text": "E500" }, { "id": "E550", "year_id": 2019, "make": "Mercedes-Benz", "text": "E550" }, { "id": "E55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "E55 AMG" }, { "id": "E63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "E63 AMG" }, { "id": "G500", "year_id": 2019, "make": "Mercedes-Benz", "text": "G500" }, { "id": "G550", "year_id": 2019, "make": "Mercedes-Benz", "text": "G550" }, { "id": "G55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "G55 AMG" }, { "id": "G63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "G63 AMG" }, { "id": "GL320 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "GL320 Bluetec" }, { "id": "GL320 CDI", "year_id": 2019, "make": "Mercedes-Benz", "text": "GL320 CDI" }, { "id": "GL350 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "GL350 Bluetec" }, { "id": "GL450", "year_id": 2019, "make": "Mercedes-Benz", "text": "GL450" }, { "id": "GL550", "year_id": 2019, "make": "Mercedes-Benz", "text": "GL550" }, { "id": "GLK350", "year_id": 2019, "make": "Mercedes-Benz", "text": "GLK350" }, { "id": "ML320", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML320" }, { "id": "ML320 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML320 Bluetec" }, { "id": "ML320 CDI", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML320 CDI" }, { "id": "ML350", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML350" }, { "id": "ML350 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML350 Bluetec" }, { "id": "ML430", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML430" }, { "id": "ML450 Hybrid", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML450 Hybrid" }, { "id": "ML500", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML500" }, { "id": "ML550", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML550" }, { "id": "ML55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML55 AMG" }, { "id": "ML63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "ML63 AMG" }, { "id": "R320 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "R320 Bluetec" }, { "id": "R320 CDI", "year_id": 2019, "make": "Mercedes-Benz", "text": "R320 CDI" }, { "id": "R350", "year_id": 2019, "make": "Mercedes-Benz", "text": "R350" }, { "id": "R350 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "R350 Bluetec" }, { "id": "R500", "year_id": 2019, "make": "Mercedes-Benz", "text": "R500" }, { "id": "R63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "R63 AMG" }, { "id": "300SD", "year_id": 2019, "make": "Mercedes-Benz", "text": "300SD" }, { "id": "300SDL", "year_id": 2019, "make": "Mercedes-Benz", "text": "300SDL" }, { "id": "300SE", "year_id": 2019, "make": "Mercedes-Benz", "text": "300SE" }, { "id": "300SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "300SEL" }, { "id": "350SD", "year_id": 2019, "make": "Mercedes-Benz", "text": "350SD" }, { "id": "350SDL", "year_id": 2019, "make": "Mercedes-Benz", "text": "350SDL" }, { "id": "380SE", "year_id": 2019, "make": "Mercedes-Benz", "text": "380SE" }, { "id": "380SEC", "year_id": 2019, "make": "Mercedes-Benz", "text": "380SEC" }, { "id": "380SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "380SEL" }, { "id": "400SE", "year_id": 2019, "make": "Mercedes-Benz", "text": "400SE" }, { "id": "400SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "400SEL" }, { "id": "420SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "420SEL" }, { "id": "500SEC", "year_id": 2019, "make": "Mercedes-Benz", "text": "500SEC" }, { "id": "500SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "500SEL" }, { "id": "560SEC", "year_id": 2019, "make": "Mercedes-Benz", "text": "560SEC" }, { "id": "560SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "560SEL" }, { "id": "600SEC", "year_id": 2019, "make": "Mercedes-Benz", "text": "600SEC" }, { "id": "600SEL", "year_id": 2019, "make": "Mercedes-Benz", "text": "600SEL" }, { "id": "S320", "year_id": 2019, "make": "Mercedes-Benz", "text": "S320" }, { "id": "S350", "year_id": 2019, "make": "Mercedes-Benz", "text": "S350" }, { "id": "S350 Bluetec", "year_id": 2019, "make": "Mercedes-Benz", "text": "S350 Bluetec" }, { "id": "S400 Hybrid", "year_id": 2019, "make": "Mercedes-Benz", "text": "S400 Hybrid" }, { "id": "S420", "year_id": 2019, "make": "Mercedes-Benz", "text": "S420" }, { "id": "S430", "year_id": 2019, "make": "Mercedes-Benz", "text": "S430" }, { "id": "S500", "year_id": 2019, "make": "Mercedes-Benz", "text": "S500" }, { "id": "S550", "year_id": 2019, "make": "Mercedes-Benz", "text": "S550" }, { "id": "S55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "S55 AMG" }, { "id": "S600", "year_id": 2019, "make": "Mercedes-Benz", "text": "S600" }, { "id": "S63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "S63 AMG" },
+    { "id": "S65 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "S65 AMG" }, { "id": "300SL", "year_id": 2019, "make": "Mercedes-Benz", "text": "300SL" }, { "id": "380SL", "year_id": 2019, "make": "Mercedes-Benz", "text": "380SL" }, { "id": "380SLC", "year_id": 2019, "make": "Mercedes-Benz", "text": "380SLC" }, { "id": "500SL", "year_id": 2019, "make": "Mercedes-Benz", "text": "500SL" }, { "id": "560SL", "year_id": 2019, "make": "Mercedes-Benz", "text": "560SL" }, { "id": "600SL", "year_id": 2019, "make": "Mercedes-Benz", "text": "600SL" }, { "id": "SL320", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL320" }, { "id": "SL500", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL500" }, { "id": "SL550", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL550" }, { "id": "SL55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL55 AMG" }, { "id": "SL600", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL600" }, { "id": "SL63 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL63 AMG" }, { "id": "SL65 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SL65 AMG" }, { "id": "SLK230", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK230" }, { "id": "SLK250", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK250" }, { "id": "SLK280", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK280" }, { "id": "SLK300", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK300" }, { "id": "SLK320", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK320" }, { "id": "SLK32 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK32 AMG" }, { "id": "SLK350", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK350" }, { "id": "SLK55 AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLK55 AMG" }, { "id": "SLR", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLR" },
+    { "id": "SLS AMG", "year_id": 2019, "make": "Mercedes-Benz", "text": "SLS AMG" }, { "id": "Sprinter", "year_id": 2019, "make": "Mercedes-Benz", "text": "Sprinter" },
+    { "id": "Capri", "year_id": 2019, "make": "Mercury", "text": "Capri" }, { "id": "Cougar", "year_id": 2019, "make": "Mercury", "text": "Cougar" }, { "id": "Grand Marquis", "year_id": 2019, "make": "Mercury", "text": "Grand Marquis" }, { "id": "Lynx", "year_id": 2019, "make": "Mercury", "text": "Lynx" }, { "id": "Marauder", "year_id": 2019, "make": "Mercury", "text": "Marauder" }, { "id": "Mariner", "year_id": 2019, "make": "Mercury", "text": "Mariner" }, { "id": "Marquis", "year_id": 2019, "make": "Mercury", "text": "Marquis" }, { "id": "Milan", "year_id": 2019, "make": "Mercury", "text": "Milan" }, { "id": "Montego", "year_id": 2019, "make": "Mercury", "text": "Montego" }, { "id": "Monterey", "year_id": 2019, "make": "Mercury", "text": "Monterey" }, { "id": "Mountaineer", "year_id": 2019, "make": "Mercury", "text": "Mountaineer" },
+    { "id": "Mystique", "year_id": 2019, "make": "Mercury", "text": "Mystique" }, { "id": "Sable", "year_id": 2019, "make": "Mercury", "text": "Sable" }, { "id": "Topaz", "year_id": 2019, "make": "Mercury", "text": "Topaz" }, { "id": "Tracer", "year_id": 2019, "make": "Mercury", "text": "Tracer" }, { "id": "Villager", "year_id": 2019, "make": "Mercury", "text": "Villager" }, { "id": "Zephyr", "year_id": 2019, "make": "Mercury", "text": "Zephyr" },
+    { "id": "Scorpio", "year_id": 2019, "make": "Merkur", "text": "Scorpio" }, { "id": "XR4Ti", "year_id": 2019, "make": "Merkur", "text": "XR4Ti" }, { "id": "Cooper Clubman", "year_id": 2019, "make": "MINI", "text": "Cooper Clubman" }, { "id": "Cooper S Clubman", "year_id": 2019, "make": "MINI", "text": "Cooper S Clubman" }, { "id": "Cooper Countryman", "year_id": 2019, "make": "MINI", "text": "Cooper Countryman" }, { "id": "Cooper S Countryman", "year_id": 2019, "make": "MINI", "text": "Cooper S Countryman" }, { "id": "Cooper Coupe", "year_id": 2019, "make": "MINI", "text": "Cooper Coupe" }, { "id": "Cooper S Coupe", "year_id": 2019, "make": "MINI", "text": "Cooper S Coupe" },
+    { "id": "Cooper", "year_id": 2019, "make": "MINI", "text": "Cooper" }, { "id": "Cooper S", "year_id": 2019, "make": "MINI", "text": "Cooper S" }, { "id": "Cooper Roadster", "year_id": 2019, "make": "MINI", "text": "Cooper Roadster" }, { "id": "Cooper S Roadster", "year_id": 2019, "make": "MINI", "text": "Cooper S Roadster" }, { "id": "3000GT", "year_id": 2019, "make": "Mitsubishi", "text": "3000GT" }, { "id": "Cordia", "year_id": 2019, "make": "Mitsubishi", "text": "Cordia" }, { "id": "Diamante", "year_id": 2019, "make": "Mitsubishi", "text": "Diamante" }, { "id": "Eclipse", "year_id": 2019, "make": "Mitsubishi", "text": "Eclipse" },
+    { "id": "Endeavor", "year_id": 2019, "make": "Mitsubishi", "text": "Endeavor" }, { "id": "Expo", "year_id": 2019, "make": "Mitsubishi", "text": "Expo" }, { "id": "Galant", "year_id": 2019, "make": "Mitsubishi", "text": "Galant" }, { "id": "i", "year_id": 2019, "make": "Mitsubishi", "text": "i" }, { "id": "Lancer", "year_id": 2019, "make": "Mitsubishi", "text": "Lancer" }, { "id": "Lancer Evolution", "year_id": 2019, "make": "Mitsubishi", "text": "Lancer Evolution" }, { "id": "Mighty Max", "year_id": 2019, "make": "Mitsubishi", "text": "Mighty Max" }, { "id": "Mirage", "year_id": 2019, "make": "Mitsubishi", "text": "Mirage" }, { "id": "Montero", "year_id": 2019, "make": "Mitsubishi", "text": "Montero" }, { "id": "Montero Sport", "year_id": 2019, "make": "Mitsubishi", "text": "Montero Sport" }, { "id": "Outlander", "year_id": 2019, "make": "Mitsubishi", "text": "Outlander" }, { "id": "Outlander Sport", "year_id": 2019, "make": "Mitsubishi", "text": "Outlander Sport" }, { "id": "Precis", "year_id": 2019, "make": "Mitsubishi", "text": "Precis" }, { "id": "Raider", "year_id": 2019, "make": "Mitsubishi", "text": "Raider" }, { "id": "Sigma", "year_id": 2019, "make": "Mitsubishi", "text": "Sigma" }, { "id": "Starion", "year_id": 2019, "make": "Mitsubishi", "text": "Starion" }, { "id": "Tredia", "year_id": 2019, "make": "Mitsubishi", "text": "Tredia" }, { "id": "Van", "year_id": 2019, "make": "Mitsubishi", "text": "Van" }, { "id": "200SX", "year_id": 2019, "make": "Nissan", "text": "200SX" }, { "id": "240SX", "year_id": 2019, "make": "Nissan", "text": "240SX" }, { "id": "300ZX", "year_id": 2019, "make": "Nissan", "text": "300ZX" }, { "id": "350Z", "year_id": 2019, "make": "Nissan", "text": "350Z" }, { "id": "370Z", "year_id": 2019, "make": "Nissan", "text": "370Z" }, { "id": "Altima", "year_id": 2019, "make": "Nissan", "text": "Altima" },
+    { "id": "Armada", "year_id": 2019, "make": "Nissan", "text": "Armada" }, { "id": "Axxess", "year_id": 2019, "make": "Nissan", "text": "Axxess" }, { "id": "Cube", "year_id": 2019, "make": "Nissan", "text": "Cube" }, { "id": "Frontier", "year_id": 2019, "make": "Nissan", "text": "Frontier" }, { "id": "GT-R", "year_id": 2019, "make": "Nissan", "text": "GT-R" }, { "id": "Juke", "year_id": 2019, "make": "Nissan", "text": "Juke" }, { "id": "Leaf", "year_id": 2019, "make": "Nissan", "text": "Leaf" }, { "id": "Maxima", "year_id": 2019, "make": "Nissan", "text": "Maxima" }, { "id": "Murano", "year_id": 2019, "make": "Nissan", "text": "Murano" }, { "id": "Murano CrossCabriolet", "year_id": 2019, "make": "Nissan", "text": "Murano CrossCabriolet" }, { "id": "NV", "year_id": 2019, "make": "Nissan", "text": "NV" }, { "id": "NX", "year_id": 2019, "make": "Nissan", "text": "NX" }, { "id": "Pathfinder", "year_id": 2019, "make": "Nissan", "text": "Pathfinder" }, { "id": "Pickup", "year_id": 2019, "make": "Nissan", "text": "Pickup" }, { "id": "Pulsar", "year_id": 2019, "make": "Nissan", "text": "Pulsar" }, { "id": "Quest", "year_id": 2019, "make": "Nissan", "text": "Quest" }, { "id": "Rogue", "year_id": 2019, "make": "Nissan", "text": "Rogue" }, { "id": "Sentra", "year_id": 2019, "make": "Nissan", "text": "Sentra" }, { "id": "Stanza", "year_id": 2019, "make": "Nissan", "text": "Stanza" }, { "id": "Titan", "year_id": 2019, "make": "Nissan", "text": "Titan" },
+    { "id": "Van", "year_id": 2019, "make": "Nissan", "text": "Van" }, { "id": "Versa", "year_id": 2019, "make": "Nissan", "text": "Versa" }, { "id": "Xterra", "year_id": 2019, "make": "Nissan", "text": "Xterra" }, { "id": "88", "year_id": 2019, "make": "Oldsmobile", "text": "88" }, { "id": "Achieva", "year_id": 2019, "make": "Oldsmobile", "text": "Achieva" }, { "id": "Alero", "year_id": 2019, "make": "Oldsmobile", "text": "Alero" }, { "id": "Aurora", "year_id": 2019, "make": "Oldsmobile", "text": "Aurora" }, { "id": "Bravada", "year_id": 2019, "make": "Oldsmobile", "text": "Bravada" }, { "id": "Custom Cruiser", "year_id": 2019, "make": "Oldsmobile", "text": "Custom Cruiser" }, { "id": "Cutlass", "year_id": 2019, "make": "Oldsmobile", "text": "Cutlass" }, { "id": "Cutlass Calais", "year_id": 2019, "make": "Oldsmobile", "text": "Cutlass Calais" }, { "id": "Cutlass Ciera", "year_id": 2019, "make": "Oldsmobile", "text": "Cutlass Ciera" }, { "id": "Cutlass Supreme", "year_id": 2019, "make": "Oldsmobile", "text": "Cutlass Supreme" }, { "id": "Firenza", "year_id": 2019, "make": "Oldsmobile", "text": "Firenza" }, { "id": "Intrigue", "year_id": 2019, "make": "Oldsmobile", "text": "Intrigue" }, { "id": "Ninety-Eight", "year_id": 2019, "make": "Oldsmobile", "text": "Ninety-Eight" }, { "id": "Omega", "year_id": 2019, "make": "Oldsmobile", "text": "Omega" }, { "id": "Regency", "year_id": 2019, "make": "Oldsmobile", "text": "Regency" }, { "id": "Silhouette", "year_id": 2019, "make": "Oldsmobile", "text": "Silhouette" }, { "id": "Toronado", "year_id": 2019, "make": "Oldsmobile", "text": "Toronado" }, { "id": "405", "year_id": 2019, "make": "Peugeot", "text": "405" }, { "id": "504", "year_id": 2019, "make": "Peugeot", "text": "504" }, { "id": "505", "year_id": 2019, "make": "Peugeot", "text": "505" }, { "id": "604", "year_id": 2019, "make": "Peugeot", "text": "604" }, { "id": "Acclaim", "year_id": 2019, "make": "Plymouth", "text": "Acclaim" }, { "id": "Arrow", "year_id": 2019, "make": "Plymouth", "text": "Arrow" }, { "id": "Breeze", "year_id": 2019, "make": "Plymouth", "text": "Breeze" }, { "id": "Caravelle", "year_id": 2019, "make": "Plymouth", "text": "Caravelle" }, { "id": "Champ", "year_id": 2019, "make": "Plymouth", "text": "Champ" }, { "id": "Colt", "year_id": 2019, "make": "Plymouth", "text": "Colt" }, { "id": "Conquest", "year_id": 2019, "make": "Plymouth", "text": "Conquest" }, { "id": "Gran Fury", "year_id": 2019, "make": "Plymouth", "text": "Gran Fury" }, { "id": "Grand Voyager", "year_id": 2019, "make": "Plymouth", "text": "Grand Voyager" },
+    { "id": "Horizon", "year_id": 2019, "make": "Plymouth", "text": "Horizon" }, { "id": "Laser", "year_id": 2019, "make": "Plymouth", "text": "Laser" }, { "id": "Neon", "year_id": 2019, "make": "Plymouth", "text": "Neon" }, { "id": "Prowler", "year_id": 2019, "make": "Plymouth", "text": "Prowler" }, { "id": "Reliant", "year_id": 2019, "make": "Plymouth", "text": "Reliant" }, { "id": "Sapporo", "year_id": 2019, "make": "Plymouth", "text": "Sapporo" }, { "id": "Scamp", "year_id": 2019, "make": "Plymouth", "text": "Scamp" }, { "id": "Sundance", "year_id": 2019, "make": "Plymouth", "text": "Sundance" }, { "id": "Trailduster", "year_id": 2019, "make": "Plymouth", "text": "Trailduster" }, { "id": "Voyager", "year_id": 2019, "make": "Plymouth", "text": "Voyager" }, { "id": "1000", "year_id": 2019, "make": "Pontiac", "text": "1000" }, { "id": "6000", "year_id": 2019, "make": "Pontiac", "text": "6000" }, { "id": "Aztek", "year_id": 2019, "make": "Pontiac", "text": "Aztek" }, { "id": "Bonneville", "year_id": 2019, "make": "Pontiac", "text": "Bonneville" }, { "id": "Catalina", "year_id": 2019, "make": "Pontiac", "text": "Catalina" }, { "id": "Fiero", "year_id": 2019, "make": "Pontiac", "text": "Fiero" }, { "id": "Firebird", "year_id": 2019, "make": "Pontiac", "text": "Firebird" }, { "id": "G3", "year_id": 2019, "make": "Pontiac", "text": "G3" }, { "id": "G5", "year_id": 2019, "make": "Pontiac", "text": "G5" }, { "id": "G6", "year_id": 2019, "make": "Pontiac", "text": "G6" }, { "id": "G8", "year_id": 2019, "make": "Pontiac", "text": "G8" }, { "id": "Grand Am", "year_id": 2019, "make": "Pontiac", "text": "Grand Am" }, { "id": "Grand Prix", "year_id": 2019, "make": "Pontiac", "text": "Grand Prix" }, { "id": "GTO", "year_id": 2019, "make": "Pontiac", "text": "GTO" }, { "id": "J2000", "year_id": 2019, "make": "Pontiac", "text": "J2000" }, { "id": "Le Mans", "year_id": 2019, "make": "Pontiac", "text": "Le Mans" }, { "id": "Montana", "year_id": 2019, "make": "Pontiac", "text": "Montana" }, { "id": "Parisienne", "year_id": 2019, "make": "Pontiac", "text": "Parisienne" }, { "id": "Phoenix", "year_id": 2019, "make": "Pontiac", "text": "Phoenix" }, { "id": "Safari", "year_id": 2019, "make": "Pontiac", "text": "Safari" }, { "id": "Solstice", "year_id": 2019, "make": "Pontiac", "text": "Solstice" }, { "id": "Sunbird", "year_id": 2019, "make": "Pontiac", "text": "Sunbird" }, { "id": "Sunfire", "year_id": 2019, "make": "Pontiac", "text": "Sunfire" }, { "id": "Torrent", "year_id": 2019, "make": "Pontiac", "text": "Torrent" }, { "id": "Trans Sport", "year_id": 2019, "make": "Pontiac", "text": "Trans Sport" }, { "id": "Vibe", "year_id": 2019, "make": "Pontiac", "text": "Vibe" }, { "id": "911", "year_id": 2019, "make": "Porsche", "text": "911" }, { "id": "924", "year_id": 2019, "make": "Porsche", "text": "924" }, { "id": "928", "year_id": 2019, "make": "Porsche", "text": "928" }, { "id": "944", "year_id": 2019, "make": "Porsche", "text": "944" }, { "id": "968", "year_id": 2019, "make": "Porsche", "text": "968" }, { "id": "Boxster", "year_id": 2019, "make": "Porsche", "text": "Boxster" }, { "id": "Carrera GT", "year_id": 2019, "make": "Porsche", "text": "Carrera GT" }, { "id": "Cayenne", "year_id": 2019, "make": "Porsche", "text": "Cayenne" }, { "id": "Cayman", "year_id": 2019, "make": "Porsche", "text": "Cayman" }, { "id": "Panamera", "year_id": 2019, "make": "Porsche", "text": "Panamera" }, { "id": "1500", "year_id": 2019, "make": "RAM", "text": "1500" }, { "id": "2500", "year_id": 2019, "make": "RAM", "text": "2500" }, { "id": "3500", "year_id": 2019, "make": "RAM", "text": "3500" }, { "id": "4500", "year_id": 2019, "make": "RAM", "text": "4500" }, { "id": "18i", "year_id": 2019, "make": "Renault", "text": "18i" }, { "id": "Fuego", "year_id": 2019, "make": "Renault", "text": "Fuego" }, { "id": "Le Car", "year_id": 2019, "make": "Renault", "text": "Le Car" }, { "id": "R18", "year_id": 2019, "make": "Renault", "text": "R18" }, { "id": "Sportwagon", "year_id": 2019, "make": "Renault", "text": "Sportwagon" }, { "id": "Camargue", "year_id": 2019, "make": "Rolls-Royce", "text": "Camargue" }, { "id": "Corniche", "year_id": 2019, "make": "Rolls-Royce", "text": "Corniche" }, { "id": "Ghost", "year_id": 2019, "make": "Rolls-Royce", "text": "Ghost" }, { "id": "Park Ward", "year_id": 2019, "make": "Rolls-Royce", "text": "Park Ward" }, { "id": "Phantom", "year_id": 2019, "make": "Rolls-Royce", "text": "Phantom" }, { "id": "Silver Dawn", "year_id": 2019, "make": "Rolls-Royce", "text": "Silver Dawn" }, { "id": "Silver Seraph", "year_id": 2019, "make": "Rolls-Royce", "text": "Silver Seraph" }, { "id": "Silver Spirit", "year_id": 2019, "make": "Rolls-Royce", "text": "Silver Spirit" }, { "id": "Silver Spur", "year_id": 2019, "make": "Rolls-Royce", "text": "Silver Spur" }, { "id": "9-2X", "year_id": 2019, "make": "Saab", "text": "9-2X" }, { "id": "9-3", "year_id": 2019, "make": "Saab", "text": "9-3" }, { "id": "9-4X", "year_id": 2019, "make": "Saab", "text": "9-4X" }, { "id": "9-5", "year_id": 2019, "make": "Saab", "text": "9-5" }, { "id": "9-7X", "year_id": 2019, "make": "Saab", "text": "9-7X" }, { "id": "900", "year_id": 2019, "make": "Saab", "text": "900" }, { "id": "9000", "year_id": 2019, "make": "Saab", "text": "9000" }, { "id": "Astra", "year_id": 2019, "make": "Saturn", "text": "Astra" }, { "id": "Aura", "year_id": 2019, "make": "Saturn", "text": "Aura" }, { "id": "ION", "year_id": 2019, "make": "Saturn", "text": "ION" }, { "id": "L100", "year_id": 2019, "make": "Saturn", "text": "L100" }, { "id": "L200", "year_id": 2019, "make": "Saturn", "text": "L200" }, { "id": "L300", "year_id": 2019, "make": "Saturn", "text": "L300" }, { "id": "LS", "year_id": 2019, "make": "Saturn", "text": "LS" }, { "id": "LW1", "year_id": 2019, "make": "Saturn", "text": "LW1" }, { "id": "LW2", "year_id": 2019, "make": "Saturn", "text": "LW2" }, { "id": "LW200", "year_id": 2019, "make": "Saturn", "text": "LW200" }, { "id": "LW300", "year_id": 2019, "make": "Saturn", "text": "LW300" }, { "id": "Outlook", "year_id": 2019, "make": "Saturn", "text": "Outlook" }, { "id": "Relay", "year_id": 2019, "make": "Saturn", "text": "Relay" }, { "id": "SC1", "year_id": 2019, "make": "Saturn", "text": "SC1" }, { "id": "SC2", "year_id": 2019, "make": "Saturn", "text": "SC2" }, { "id": "Sky", "year_id": 2019, "make": "Saturn", "text": "Sky" }, { "id": "SL", "year_id": 2019, "make": "Saturn", "text": "SL" }, { "id": "SL1", "year_id": 2019, "make": "Saturn", "text": "SL1" }, { "id": "SL2", "year_id": 2019, "make": "Saturn", "text": "SL2" }, { "id": "SW1", "year_id": 2019, "make": "Saturn", "text": "SW1" }, { "id": "SW2", "year_id": 2019, "make": "Saturn", "text": "SW2" }, { "id": "Vue", "year_id": 2019, "make": "Saturn", "text": "Vue" }, { "id": "FR-S", "year_id": 2019, "make": "Scion", "text": "FR-S" }, { "id": "iQ", "year_id": 2019, "make": "Scion", "text": "iQ" }, { "id": "tC", "year_id": 2019, "make": "Scion", "text": "tC" }, { "id": "xA", "year_id": 2019, "make": "Scion", "text": "xA" }, { "id": "xB", "year_id": 2019, "make": "Scion", "text": "xB" }, { "id": "xD", "year_id": 2019, "make": "Scion", "text": "xD" }, { "id": "fortwo", "year_id": 2019, "make": "smart", "text": "fortwo" }, { "id": "Viper", "year_id": 2019, "make": "SRT", "text": "Viper" }, { "id": "825", "year_id": 2019, "make": "Sterling", "text": "825" }, { "id": "827", "year_id": 2019, "make": "Sterling", "text": "827" }, { "id": "Baja", "year_id": 2019, "make": "Subaru", "text": "Baja" }, { "id": "Brat", "year_id": 2019, "make": "Subaru", "text": "Brat" }, { "id": "BRZ", "year_id": 2019, "make": "Subaru", "text": "BRZ" }, { "id": "Forester", "year_id": 2019, "make": "Subaru", "text": "Forester" }, { "id": "Impreza", "year_id": 2019, "make": "Subaru", "text": "Impreza" }, { "id": "Impreza WRX", "year_id": 2019, "make": "Subaru", "text": "Impreza WRX" }, { "id": "Justy", "year_id": 2019, "make": "Subaru", "text": "Justy" }, { "id": "L Series", "year_id": 2019, "make": "Subaru", "text": "L Series" }, { "id": "Legacy", "year_id": 2019, "make": "Subaru", "text": "Legacy" }, { "id": "Loyale", "year_id": 2019, "make": "Subaru", "text": "Loyale" }, { "id": "Outback", "year_id": 2019, "make": "Subaru", "text": "Outback" }, { "id": "SVX", "year_id": 2019, "make": "Subaru", "text": "SVX" }, { "id": "Tribeca", "year_id": 2019, "make": "Subaru", "text": "Tribeca" }, { "id": "XT", "year_id": 2019, "make": "Subaru", "text": "XT" }, { "id": "XV Crosstrek", "year_id": 2019, "make": "Subaru", "text": "XV Crosstrek" }, { "id": "Aerio", "year_id": 2019, "make": "Suzuki", "text": "Aerio" }, { "id": "Equator", "year_id": 2019, "make": "Suzuki", "text": "Equator" }, { "id": "Esteem", "year_id": 2019, "make": "Suzuki", "text": "Esteem" }, { "id": "Forenza", "year_id": 2019, "make": "Suzuki", "text": "Forenza" },
+    { "id": "Grand Vitara", "year_id": 2019, "make": "Suzuki", "text": "Grand Vitara" }, { "id": "Kizashi", "year_id": 2019, "make": "Suzuki", "text": "Kizashi" }, { "id": "Reno", "year_id": 2019, "make": "Suzuki", "text": "Reno" }, { "id": "Samurai", "year_id": 2019, "make": "Suzuki", "text": "Samurai" }, { "id": "Sidekick", "year_id": 2019, "make": "Suzuki", "text": "Sidekick" }, { "id": "Swift", "year_id": 2019, "make": "Suzuki", "text": "Swift" }, { "id": "SX4", "year_id": 2019, "make": "Suzuki", "text": "SX4" }, { "id": "Verona", "year_id": 2019, "make": "Suzuki", "text": "Verona" }, { "id": "Vitara", "year_id": 2019, "make": "Suzuki", "text": "Vitara" }, { "id": "X-90", "year_id": 2019, "make": "Suzuki", "text": "X-90" }, { "id": "XL7", "year_id": 2019, "make": "Suzuki", "text": "XL7" }, { "id": "Roadster", "year_id": 2019, "make": "Tesla", "text": "Roadster" }, { "id": "Model S", "year_id": 2019, "make": "Tesla", "text": "Model S" }, { "id": "4Runner", "year_id": 2019, "make": "Toyota", "text": "4Runner" }, { "id": "Avalon", "year_id": 2019, "make": "Toyota", "text": "Avalon" }, { "id": "Camry", "year_id": 2019, "make": "Toyota", "text": "Camry" }, { "id": "Celica", "year_id": 2019, "make": "Toyota", "text": "Celica" }, { "id": "Corolla", "year_id": 2019, "make": "Toyota", "text": "Corolla" }, { "id": "Corona", "year_id": 2019, "make": "Toyota", "text": "Corona" }, { "id": "Cressida", "year_id": 2019, "make": "Toyota", "text": "Cressida" }, { "id": "Echo", "year_id": 2019, "make": "Toyota", "text": "Echo" }, { "id": "FJ Cruiser", "year_id": 2019, "make": "Toyota", "text": "FJ Cruiser" }, { "id": "Highlander", "year_id": 2019, "make": "Toyota", "text": "Highlander" }, { "id": "Land Cruiser", "year_id": 2019, "make": "Toyota", "text": "Land Cruiser" }, { "id": "Matrix", "year_id": 2019, "make": "Toyota", "text": "Matrix" }, { "id": "MR2", "year_id": 2019, "make": "Toyota", "text": "MR2" }, { "id": "MR2 Spyder", "year_id": 2019, "make": "Toyota", "text": "MR2 Spyder" }, { "id": "Paseo", "year_id": 2019, "make": "Toyota", "text": "Paseo" }, { "id": "Pickup", "year_id": 2019, "make": "Toyota", "text": "Pickup" }, { "id": "Previa", "year_id": 2019, "make": "Toyota", "text": "Previa" }, { "id": "Prius", "year_id": 2019, "make": "Toyota", "text": "Prius" }, { "id": "Prius C", "year_id": 2019, "make": "Toyota", "text": "Prius C" }, { "id": "Prius V", "year_id": 2019, "make": "Toyota", "text": "Prius V" }, { "id": "RAV4", "year_id": 2019, "make": "Toyota", "text": "RAV4" }, { "id": "Sequoia", "year_id": 2019, "make": "Toyota", "text": "Sequoia" }, { "id": "Sienna", "year_id": 2019, "make": "Toyota", "text": "Sienna" }, { "id": "Solara", "year_id": 2019, "make": "Toyota", "text": "Solara" }, { "id": "Starlet", "year_id": 2019, "make": "Toyota", "text": "Starlet" }, { "id": "Supra", "year_id": 2019, "make": "Toyota", "text": "Supra" }, { "id": "T100", "year_id": 2019, "make": "Toyota", "text": "T100" }, { "id": "Tacoma", "year_id": 2019, "make": "Toyota", "text": "Tacoma" }, { "id": "Tercel", "year_id": 2019, "make": "Toyota", "text": "Tercel" }, { "id": "Tundra", "year_id": 2019, "make": "Toyota", "text": "Tundra" }, { "id": "Van", "year_id": 2019, "make": "Toyota", "text": "Van" }, { "id": "Venza", "year_id": 2019, "make": "Toyota", "text": "Venza" }, { "id": "Yaris", "year_id": 2019, "make": "Toyota", "text": "Yaris" }, { "id": "TR7", "year_id": 2019, "make": "Triumph", "text": "TR7" }, { "id": "TR8", "year_id": 2019, "make": "Triumph", "text": "TR8" }, { "id": "Beetle", "year_id": 2019, "make": "Volkswagen", "text": "Beetle" }, { "id": "Cabrio", "year_id": 2019, "make": "Volkswagen", "text": "Cabrio" }, { "id": "Cabriolet", "year_id": 2019, "make": "Volkswagen", "text": "Cabriolet" }, { "id": "CC", "year_id": 2019, "make": "Volkswagen", "text": "CC" }, { "id": "Corrado", "year_id": 2019, "make": "Volkswagen", "text": "Corrado" }, { "id": "Dasher", "year_id": 2019, "make": "Volkswagen", "text": "Dasher" }, { "id": "Eos", "year_id": 2019, "make": "Volkswagen", "text": "Eos" }, { "id": "Eurovan", "year_id": 2019, "make": "Volkswagen", "text": "Eurovan" }, { "id": "Fox", "year_id": 2019, "make": "Volkswagen", "text": "Fox" }, { "id": "GLI", "year_id": 2019, "make": "Volkswagen", "text": "GLI" }, { "id": "Golf R", "year_id": 2019, "make": "Volkswagen", "text": "Golf R" }, { "id": "GTI", "year_id": 2019, "make": "Volkswagen", "text": "GTI" }, { "id": "Golf", "year_id": 2019, "make": "Volkswagen", "text": "Golf" }, { "id": "Rabbit", "year_id": 2019, "make": "Volkswagen", "text": "Rabbit" }, { "id": "Jetta", "year_id": 2019, "make": "Volkswagen", "text": "Jetta" }, { "id": "Passat", "year_id": 2019, "make": "Volkswagen", "text": "Passat" }, { "id": "Phaeton", "year_id": 2019, "make": "Volkswagen", "text": "Phaeton" }, { "id": "Pickup", "year_id": 2019, "make": "Volkswagen", "text": "Pickup" }, { "id": "Quantum", "year_id": 2019, "make": "Volkswagen", "text": "Quantum" }, { "id": "R32", "year_id": 2019, "make": "Volkswagen", "text": "R32" }, { "id": "Routan", "year_id": 2019, "make": "Volkswagen", "text": "Routan" }, { "id": "Scirocco", "year_id": 2019, "make": "Volkswagen", "text": "Scirocco" }, { "id": "Tiguan", "year_id": 2019, "make": "Volkswagen", "text": "Tiguan" }, { "id": "Touareg", "year_id": 2019, "make": "Volkswagen", "text": "Touareg" }, { "id": "Vanagon", "year_id": 2019, "make": "Volkswagen", "text": "Vanagon" }, { "id": "240", "year_id": 2019, "make": "Volvo", "text": "240" }, { "id": "260", "year_id": 2019, "make": "Volvo", "text": "260" }, { "id": "740", "year_id": 2019, "make": "Volvo", "text": "740" }, { "id": "760", "year_id": 2019, "make": "Volvo", "text": "760" }, { "id": "780", "year_id": 2019, "make": "Volvo", "text": "780" }, { "id": "850", "year_id": 2019, "make": "Volvo", "text": "850" }, { "id": "940", "year_id": 2019, "make": "Volvo", "text": "940" }, { "id": "960", "year_id": 2019, "make": "Volvo", "text": "960" }, { "id": "C30", "year_id": 2019, "make": "Volvo", "text": "C30" }, { "id": "C70", "year_id": 2019, "make": "Volvo", "text": "C70" }, { "id": "S40", "year_id": 2019, "make": "Volvo", "text": "S40" }, { "id": "S60", "year_id": 2019, "make": "Volvo", "text": "S60" }, { "id": "S70", "year_id": 2019, "make": "Volvo", "text": "S70" }, { "id": "S80", "year_id": 2019, "make": "Volvo", "text": "S80" }, { "id": "S90", "year_id": 2019, "make": "Volvo", "text": "S90" }, { "id": "V40", "year_id": 2019, "make": "Volvo", "text": "V40" }, { "id": "V50", "year_id": 2019, "make": "Volvo", "text": "V50" }, { "id": "V70", "year_id": 2019, "make": "Volvo", "text": "V70" }, { "id": "V90", "year_id": 2019, "make": "Volvo", "text": "V90" }, { "id": "XC60", "year_id": 2019, "make": "Volvo", "text": "XC60" }, { "id": "XC70", "year_id": 2019, "make": "Volvo", "text": "XC70" }, { "id": "XC90", "year_id": 2019, "make": "Volvo", "text": "XC90" }, { "id": "GV", "year_id": 2019, "make": "Yugo", "text": "GV" }, { "id": "GVC", "year_id": 2019, "make": "Yugo", "text": "GVC" }, { "id": "GVL", "year_id": 2019, "make": "Yugo", "text": "GVL" },
+    { "id": "GVS", "year_id": 2019, "make": "Yugo", "text": "GVS" }, { "id": "GVX", "year_id": 2019, "make": "Yugo", "text": "GVX" }
+]

@@ -1,0 +1,10 @@
+<label fxLayout="column" *ngFor="let item of state.items">
+  <!-- <input type="checkbox"
+         (click)="state.refine(item.value)"
+         [checked]="item.isRefined" > {{ item.label }} ({{ item.count }}) -->
+  <mat-checkbox 
+    (click)="state.refine(item.value)"
+    [checked]="item.isRefined">
+    {{ item.label }} ({{ item.count }})
+  </mat-checkbox>
+</label>

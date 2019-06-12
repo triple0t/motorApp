@@ -1,0 +1,105 @@
+.footer{
+    min-height: 100px;
+    padding: 16px 16px 0;
+    @media screen and (max-width: 420px) and (min-width: 320px) {
+        padding: 0;
+    }
+
+    .subscribe-block{
+        padding: 16px 0 32px 0;
+        text-align: center;
+        h1, h3{
+            line-height: 1;
+        }
+        h1{
+            margin-bottom: 6px;
+        }
+        .subscribe-search-form{
+            height: 50px;
+            padding: 0 16px;
+            input[type=text]{
+                border: 0;
+                outline: none;
+                padding: 0 25px;
+                font-size: 16px;
+            }
+            button{
+                font-size: 16px;
+                padding: 0 24px;
+                border-radius: 0;
+            }
+        }
+    }
+    .col-title{
+        font-weight: 600;
+    }
+    .mat-icon{
+        height: 21px;
+        line-height: 21px;
+    }
+    .link{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .copyright{
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+.bg-man{
+    background-color: #ebebeb;
+}
+.mat-raised-button.mat-primary {
+    color: #fff !important;
+}
+
+@media (max-width: 575px) {
+    .footer .subscribe-block{
+        .subscribe-search-form{
+            height: 40px;
+            margin-top: 16px;
+            input[type=text]{
+                padding: 0 8px;
+                font-size: 14px;
+            }
+            button{
+                font-size: 14px;
+                padding: 0 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {    
+    .footer .subscribe-block{
+        .subscribe-search-form{
+            margin-top: 16px;
+        }
+    }
+}
+
+.sebm-google-map-container {
+    height: 220px;
+}
+@media (min-width: 1200px){
+.connect--email-form input.form-control {
+    width: 345px;
+}
+}
+@media (min-width: 992px){
+.connect--email-form input.form-control {
+    width: 290px;
+}}
+@media (min-width: 768px){
+.connect--email-form input.form-control {
+    width: 345px;
+    padding: 6px 12px;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+}

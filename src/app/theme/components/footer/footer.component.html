@@ -1,0 +1,144 @@
+<div class="bg-man">
+    <div fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutAlign="center center"
+        class="border-bottom-mute subscribe-block theme-container">
+        <div fxFlex="100" fxFlex.gt-sm="40" fxLayout="column" fxLayoutAlign="center center">
+            <h3 class="fw-500">Subscribe to our Newsletter</h3>
+        </div>
+        <form method="get" class="subscribe-search-form" [formGroup]="subscribeForm"
+            (ngSubmit)="subscribe(subscribeForm.value)" fxLayout="row" fxFlex="100" fxFlex.gt-sm="42.4"
+            ngClass.sm="mt-2" ngClass.xs="mt-2" style="margin-bottom:10px;">
+            <input _ngcontent-c10="" aria-autocomplete="both" formControlName="email" required aria-expanded="false"
+                aria-label="subscribe" autocomplete="off"
+                class="site-search_input js-site-search_input form-ctrl orly-header-search-input" name="q"
+                placeholder="Enter Email" title="Enter Email" type="text">
+            <!-- <button mat-raised-button color="accent" (click)="subscribe()" type="button" class="mat-elevation-z0 text-muted"></button> -->
+            <button _ngcontent-c10="" aria-label="Search"
+                class="site-search_btn js-site-search_btn button button--green button--search button--flat-left orly-header-search-button"
+                type="submit">Subscribe</button>
+        </form>
+    </div>
+</div>
+
+<div fxHide fxShow.gt-xs>
+    <footer class="bg-primary footer" style="background-color:#fff">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between" class="py-3 border-bottom-mute theme-container">
+            <div fxFlex="100" fxFlex.gt-sm="30" fxFlex.sm="40">
+                <h4 class="col-title" style="color: #333">Contact Store</h4>
+                <p style="color: #333" class="mt-1"><a routerLink="/contact" class="link secondary-color">Contact</a>
+                </p>
+                <p style="color: #333" class="mt-1"><a href="javascript:void(0);" class="link secondary-color">FAQ</a>
+                </p>
+                <h4 class="col-title" style="color: #333">Find a Repair Shop</h4>
+                <p style="color: #333" class="mt-1">Find an Automotive Service Professional</p>
+            </div>
+            <div fxFlex="100" fxFlex.gt-sm="40" fxFlex.sm="60" ngClass.xs="mt-2">
+                <h4 class="col-title" style="color: #333">Contact Information</h4>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-2 secondary-color">
+                    <mat-icon class="mr-1">location_on</mat-icon>
+                    <span>18, Gbemisola Street Opebi Allen ikeja Lagos</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">call</mat-icon>
+                    <span>+234-8177-676-764, +234-8177-676-766, 0700-123-MOTOR</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">directions</mat-icon>
+                    <a href="javascript:void(0);" class="link secondary-color">Get directions</a>
+                </p>
+            </div>
+            <div fxFlex="100" fxFlex.gt-sm="30" ngClass.sm="mt-2" ngClass.xs="mt-2">
+                <h4 class="col-title" style="color: #333">More Contact Information</h4>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">mail_outline</mat-icon>
+                    <span>hello@motormata.com</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">schedule</mat-icon>
+                    <span>Mon - Sun / 9:00AM - 8:00PM</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">directions_bus</mat-icon>
+                    <span>Routes to us</span>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+</div>
+
+<div fxHide fxShow.xs>
+    <footer class="bg-primary footer" style="background-color:#fff">
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Contact Store
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <p style="color: #333" class="mt-1"><a routerLink="/contact" class="link secondary-color">Contact</a>
+                </p>
+                <p style="color: #333" class="mt-1"><a href="javascript:void(0);" class="link secondary-color">FAQ</a>
+                </p>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Find a Repair Shop
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p style="color: #333" class="mt-1">Find an Automotive Service Professional</p>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Contact Information
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-2 secondary-color">
+                    <mat-icon class="mr-1">location_on</mat-icon>
+                    <span>18, Gbemisola Street Opebi Allen ikeja Lagos</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">call</mat-icon>
+                    <span>+234-8177-676-764, +234-8177-676-766, 0700-123-MOTOR</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">directions</mat-icon>
+                    <a href="javascript:void(0);" class="link secondary-color">Get directions</a>
+                </p>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        More Contact Information
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">mail_outline</mat-icon>
+                    <span>hello@motormata.com</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">schedule</mat-icon>
+                    <span>Mon - Sun / 9:00AM - 8:00PM</span>
+                </p>
+                <p style="color: #333" fxLayout="row" fxLayoutAlign="start center" class="mt-1 secondary-color">
+                    <mat-icon class="mr-1">directions_bus</mat-icon>
+                    <span>Routes to us</span>
+                </p>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </footer>
+</div>
+
+
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between center" style="color: #333"
+    class="copyright secondary-color theme-container">
+    <div fxFlex="100" fxFlex.gt-sm="50" ngClass.sm="mt-2" ngClass.xs="mt-2">
+
+    </div>
+    <div fxFlex="100" fxFlex.gt-sm="50" ngClass.sm="mt-2" ngClass.xs="mt-2">
+        <p ngClass.xs="mt-1" style="color: #333" style="position:center">Copyright © 2019 All Rights Reserved</p>
+    </div>
+</div>
